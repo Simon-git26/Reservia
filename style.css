@@ -1,8 +1,10 @@
+
 #Page_Complete
 {
-	width: 1200px;
+	width: 1100px;
 	margin: auto;
 }
+
 
 
 /* DEBUT HEADER */
@@ -13,6 +15,7 @@ header
 	justify-content: space-between;
 	padding-top: 10px;
 }
+
 
 
 /* NAVIGUATION */
@@ -37,6 +40,20 @@ header
 {
 	border-top: 2px blue solid;
 	padding-top: 25px;
+}
+
+
+
+/* TITRE */
+
+#Section1 h1
+{
+	margin-bottom: 0px;
+}
+
+#Section1 h1 + p
+{
+	margin-top: 5px;
 }
 
 
@@ -84,26 +101,35 @@ header
 #Filtres
 {
 	display: flex;
+	align-items: baseline;
 }
 
 #Filtres p
 {
-	margin-right: 50px;
+	margin-right: 20px;
+	margin-bottom: 11px;
+	margin-top: 11px;
 }
+
 
 
 .classe_filtre p
 {
-	margin-right: 50px;
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	width: 175px;
+
 }
 
 
-.classe_filtre
+.classe_filtre i
 {
-	border: 1px solid #0065FC;
-	border-radius: 10%;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
 }
-
 
 
 
