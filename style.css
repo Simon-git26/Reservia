@@ -5,6 +5,7 @@
 }
 
 
+/* DEBUT HEADER */
 
 header
 {
@@ -14,6 +15,7 @@ header
 }
 
 
+/* NAVIGUATION */
 
 #Naviguation ul
 {
@@ -39,19 +41,49 @@ header
 
 
 
-
-#Logo
-
-
-
-
-
-
-
-
-
+/* FORMULAIRE */
 
 #Section1
+
+
+#Form p
+{
+	display: flex;
+}
+
+
+#Form label
+{
+	background-color: #F2F2F2;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	border-radius: 35% 0% 0% 35%;
+}
+
+
+#Form input
+{
+	height: 26px;
+	border: 0.5px solid #F2F2F2;
+}
+
+
+#Recherche_bouton
+{
+	background-color: #0065FC;
+	color: white;
+	border-radius: 0 8px 8px 0;
+	height: 29px !important;
+}
+
+
+
+
+
+
+
 
 #Formulaire
 
