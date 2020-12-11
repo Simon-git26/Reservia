@@ -43,8 +43,6 @@ header
 
 /* FORMULAIRE */
 
-#Section1
-
 
 #Form p
 {
@@ -55,7 +53,7 @@ header
 #Form label
 {
 	background-color: #F2F2F2;
-	padding-left: 10px;
+	padding-left: 12px;
 	padding-right: 10px;
 	padding-top: 6px;
 	padding-bottom: 5px;
@@ -81,19 +79,31 @@ header
 
 
 
+/* FILTRES */
+
+#Filtres
+{
+	display: flex;
+}
+
+#Filtres p
+{
+	margin-right: 50px;
+}
 
 
+.classe_filtre p
+{
+	margin-right: 50px;
+}
 
 
-#Formulaire
+.classe_filtre
+{
+	border: 1px solid #0065FC;
+	border-radius: 10%;
+}
 
-#Economique
-
-#Familial
-
-#Romantique
-
-#Animaux
 
 
 
