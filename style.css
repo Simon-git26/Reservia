@@ -1,10 +1,52 @@
 #Page_Complete
+{
+	width: 1200px;
+	margin: auto;
+}
+
+
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+
+
+#Naviguation ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+#Naviguation li
+{
+	padding-left: 50px;
+}
+
+#Naviguation li a
+{
+	text-decoration: none;
+}
+
+#Naviguation a:hover
+{
+	border-top: 2px blue solid;
+	padding-top: 25px;
+}
+
+
 
 
 #Logo
 
 
-#Naviguation
+
+
+
+
 
 
 
