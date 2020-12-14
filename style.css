@@ -178,12 +178,25 @@ header
 
 
 
-
-
-
 #Section2
+{
+	background-color: #F2F2F2;
+}
+
+
 
 #Hebergement1
+{
+	display: flex;
+}
+
+#Hebergement2
+{
+	display: flex;
+}
+
+
+
 
 #Figure1
 
@@ -192,9 +205,6 @@ header
 #Figure3
 
 
-
-
-#Hebergement2
 
 #Figure4
 
