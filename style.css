@@ -178,11 +178,22 @@ header
 
 
 
+/* SECTION 2 */
+
 #Section2
 {
 	background-color: #F2F2F2;
 }
 
+#Section2 h2
+{
+	margin-left: 40px;
+}
+
+#Section2 p
+{
+	margin-left: 40px;
+}
 
 
 #Hebergement1
@@ -196,33 +207,32 @@ header
 }
 
 
+.photo figure
+{
+	background-color: white;
+    border: 3px solid white;
+    border-radius: 12px;
+}
 
-
-#Figure1
-
-#Figure2
-
-#Figure3
-
-
-
-#Figure4
-
-#Figure5
-
-#Figure6
+.photo img
+{
+	border-radius: 10px 10px 0px 0px;
+}
 
 
 
+
+
+/* ASIDE */
 
 
 #Aside
+{
+	background-color: #F2F2F2;
+}
 
-#Populaire1
 
-#Populaire2
-
-#Populaire3
+.aside
 
 
 
