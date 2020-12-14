@@ -178,7 +178,10 @@ header
 
 
 
+
 /* SECTION 2 */
+
+
 
 #Section2
 {
@@ -201,16 +204,27 @@ header
 	display: flex;
 }
 
+#Hebergement1 i
+{
+	color: #0065FC;
+}
+
+
 #Hebergement2
 {
 	display: flex;
+}
+
+#Hebergement2 i
+{
+	color: #0065FC;
 }
 
 
 .photo figure
 {
 	background-color: white;
-    border: 3px solid white;
+    border: 3.5px solid white;
     border-radius: 12px;
 }
 
@@ -232,7 +246,35 @@ header
 }
 
 
-.aside
+
+.aside figure
+{
+	background-color: white;
+    border: 3.5px solid white;
+    border-radius: 12px;
+}
+
+.aside img
+{
+	border-radius: 10px 0px 0px 10px;
+}
+
+.aside i
+{
+	color: #0065FC;
+}
+
+
+.flex
+{
+	display: flex;
+}
+
+
+
+
+
+
 
 
 
