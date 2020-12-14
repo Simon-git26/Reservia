@@ -1,7 +1,7 @@
 
 #Page_Complete
 {
-	width: 1100px;
+	width: 1000px;
 	margin: auto;
 }
 
@@ -96,7 +96,7 @@ header
 
 
 
-/* FILTRES */
+/* FILTRES CONTENEUR */
 
 #Filtres
 {
@@ -112,7 +112,7 @@ header
 }
 
 
-/* Filtre Economique */
+/* FILTRES */
 
 .Filter
 {
@@ -123,6 +123,7 @@ header
 	height: 34px;
 	position: relative;
 	margin-left: 7px;
+	margin-right: 25px;
 }
 
 .filter_text
@@ -149,12 +150,34 @@ header
 
 
 
+/* LOGEMENT */
 
 #Logement
 {
 	display: flex;
 	align-items: baseline;
 }
+
+#Logement p
+{
+	margin-left: 10px;
+}
+
+#Logement i
+{
+	color: #0065FC;
+	border: 1px solid #F2F2F2; 
+	background-color: #ffffff;
+	height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 
 
