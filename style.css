@@ -292,7 +292,16 @@ header
 
 /* SECTION 3 */
 
-#Section3
+
+#Section3 h2
+{
+	clear: both;
+ 	padding-top: 30px;
+ 	margin-bottom: 0;
+}
+
+
+#Conteneur
 {
 	display: flex;
 }
