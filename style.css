@@ -3,7 +3,7 @@
 
 #Page_Complete
 {
-	width: 1050px;
+	width: 1000px;
 	margin: auto;
 }
 
@@ -187,7 +187,7 @@ header
 #Section2
 {
 	background-color: #F2F2F2;
-	width: 62%;
+	width: 63%;
 	border-radius: 15px;
 	float: left;
 	height: 475px;
@@ -250,7 +250,7 @@ header
 #Aside
 {
 	background-color: #F2F2F2;
-	width: 33.5%;
+	width: 34%;
 	border-radius: 15px;
 	float: right;
 	height: 475px;
@@ -331,24 +331,29 @@ header
 
 
 
-#colone1
+
+/* FOOTER */
+
+#footer
 {
-	height: 387.614px;
+	display: flex;
+	background-color: #F2F2F2;
+	margin-top: 25px;
 }
 
-#colone2
-
-
-
-
-
-
-
-
 #A_propos
+{
+	margin-left: 40px;
+}
 
 
 #Nos_Hebergements
+{
+	margin-left: 120px;
+}
 
 
 #Assistance
+{
+	margin-left: 150px;
+}
