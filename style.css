@@ -260,8 +260,6 @@ header
 	text-align: center;
 }
 
-
-
 .aside figure
 {
 	background-color: white;
@@ -289,24 +287,31 @@ header
 
 
 
-
-
-
-
-
 #Section3
+{
+	display: flex;
+	margin-top: 510px;
+}
 
-#Activité1
 
-#Activité2
 
-#Activité3
+#Activite1 
 
-#Activité4
+#Activite2
 
-#Activité5
 
-#Activité6
+#Activite3
+
+
+
+
+
+
+#Activite4
+
+#Activite5
+
+#Activite6
 
 
 
