@@ -182,24 +182,25 @@ header
 /* SECTION 2 */
 
 
-
 #Section2
 {
 	background-color: #F2F2F2;
 	width: 62%;
 	border-radius: 15px;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	float: left;
+	height: 475px;
 }
 
 #Section2 h2
 {
 	margin-left: 25px;
+	margin-bottom: 0;
 }
 
 #Section2 p
 {
 	margin-left: 40px;
+	margin-top: 12px;
 }
 
 
@@ -249,13 +250,14 @@ header
 	background-color: #F2F2F2;
 	width: 33.5%;
 	border-radius: 15px;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	float: right;
+	height: 475px;
 }
 
 #Aside h2
 {
 	margin-left: 25px;
+	text-align: center;
 }
 
 
@@ -282,9 +284,8 @@ header
 {
 	display: flex;
 	height: 105px;
+	margin-bottom: 22px;
 }
-
-
 
 
 
