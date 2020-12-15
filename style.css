@@ -296,7 +296,7 @@ header
 #Section3 h2
 {
 	clear: both;
- 	padding-top: 30px;
+ 	padding-top: 35px;
  	margin-bottom: 0;
 }
 
@@ -304,6 +304,7 @@ header
 #Conteneur
 {
 	display: flex;
+	justify-content: space-between;
 }
 
 
