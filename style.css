@@ -289,9 +289,20 @@ header
 
 
 
+
+/* SECTION 3 */
+
 #Section3
 {
 	display: flex;
+}
+
+
+#Section3 figcaption
+{
+	padding-top: 6px;
+	padding-bottom: 10px;
+	padding-left: 15px;
 }
 
 
@@ -309,8 +320,15 @@ header
 }
 
 
+
 #colone1
+{
+	height: 387.614px;
+}
+
 #colone2
+
+
 
 
 
