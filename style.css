@@ -1,7 +1,7 @@
 
 #Page_Complete
 {
-	width: 1000px;
+	width: 1050px;
 	margin: auto;
 }
 
@@ -186,11 +186,15 @@ header
 #Section2
 {
 	background-color: #F2F2F2;
+	width: 62%;
+	border-radius: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 #Section2 h2
 {
-	margin-left: 40px;
+	margin-left: 25px;
 }
 
 #Section2 p
@@ -226,6 +230,8 @@ header
 	background-color: white;
     border: 3.5px solid white;
     border-radius: 12px;
+    margin-right: 0px;
+    margin-left: 25px;
 }
 
 .photo img
@@ -235,14 +241,21 @@ header
 
 
 
-
-
 /* ASIDE */
 
 
 #Aside
 {
 	background-color: #F2F2F2;
+	width: 33.5%;
+	border-radius: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#Aside h2
+{
+	margin-left: 25px;
 }
 
 
@@ -268,6 +281,7 @@ header
 .flex
 {
 	display: flex;
+	height: 105px;
 }
 
 
