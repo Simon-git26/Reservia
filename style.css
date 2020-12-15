@@ -1,4 +1,6 @@
 
+
+
 #Page_Complete
 {
 	width: 1050px;
@@ -290,28 +292,25 @@ header
 #Section3
 {
 	display: flex;
-	margin-top: 510px;
 }
 
 
+.Activite figure
+{
+	background-color: #f0f0f0;
+    border-radius: 12px;
+    margin-right: 0px;
+    margin-left: 25px;
+}
 
-#Activite1 
-
-#Activite2
-
-
-#Activite3
+.Activite img
+{
+	border-radius: 10px 10px 0px 0px;
+}
 
 
-
-
-
-
-#Activite4
-
-#Activite5
-
-#Activite6
+#colone1
+#colone2
 
 
 
