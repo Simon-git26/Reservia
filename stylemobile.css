@@ -1,5 +1,126 @@
+
+
+
 #Page_Complete
 {
 	width: auto;
 }
 
+
+
+
+
+
+
+/* Naviguation Menu */
+
+#Naviguation ul
+{
+	flex-direction: column-reverse;
+}
+
+#Naviguation a:hover
+{
+	padding-top: 0;
+}
+
+
+
+
+
+
+
+
+/* Filtre de recherche */
+
+#Filtres
+{
+	flex-direction: column;
+}
+
+#Hebergement1
+{
+	flex-direction: column;
+}
+
+#Hebergement2
+{
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/* Bloc Section 2 Hebergement a marseille */
+
+
+#Section2
+{
+	float: none;
+	height: auto;
+	background-color: transparent;
+	margin: auto;
+	width: 42%;
+}
+
+
+.photo figure
+{
+	background-color: grey;
+	border: 3px solid grey;
+}
+
+
+
+
+
+
+
+/* Bloc Aside Les plus populaires */
+
+#Aside
+{
+	float: none;
+	margin: auto;
+	width: 75%;
+	border-radius: 0;
+}
+
+#Aside h2
+{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+/* Bloc Section 3 Activitée a marseille */
+
+
+#Section3
+{
+	clear: none;
+}
+
+
+#Conteneur
+{
+	flex-direction: column;
+	height: auto;
+	background-color: transparent;
+	margin: auto;
+	width: 55%;
+}
+
+.Activite figure
+{
+	background-color: grey;
+	border: 3px solid grey;
+}
