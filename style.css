@@ -7,6 +7,11 @@
 	margin: auto;
 }
 
+body a
+{
+	text-decoration: none;
+	color: black;
+}
 
 
 /* DEBUT HEADER */
@@ -149,6 +154,22 @@ header
     height: 36px;
     width: 36px;
 }
+
+
+.filter_text:hover
+{
+	color: #0065FC;
+	margin-left: 15px;
+	border-bottom: 1px solid #0065FC;
+}
+
+
+.Filter:hover
+{
+	background-color: #cfcfcf;
+}
+
+
 
 
 
