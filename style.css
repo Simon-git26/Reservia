@@ -35,6 +35,7 @@ header
 #Naviguation li
 {
 	padding-left: 50px;
+	font-size: 0.9em;
 }
 
 #Naviguation li a
@@ -55,11 +56,13 @@ header
 #Section1 h1
 {
 	margin-bottom: 0px;
+	font-size: 1.2em;
 }
 
 #Section1 h1 + p
 {
 	margin-top: 5px;
+	font-size: 0.9em;
 }
 
 
@@ -115,6 +118,8 @@ header
 	margin-right: 20px;
 	margin-bottom: 11px;
 	margin-top: 11px;
+	font-weight: bold;
+	font-size: 0.9em;
 }
 
 
@@ -136,6 +141,8 @@ header
 {
 	padding-right: 10px;
 	padding-left: 35px;
+	font-weight: bold;
+	font-size: 0.9em;
 }
 
 .Filter i
@@ -183,6 +190,7 @@ header
 #Logement p
 {
 	margin-left: 10px;
+	font-size: 0.9em;
 }
 
 #Logement i
@@ -217,14 +225,28 @@ header
 {
 	margin-left: 25px;
 	margin-bottom: 0;
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
 #Section2 p
 {
 	margin-left: 40px;
 	margin-top: 12px;
+	font-weight: bold;
+	font-size: 1em;
 }
 
+.span
+{
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+.span2
+{
+	font-size: 0.9em;
+}
 
 #Hebergement1
 {
@@ -241,6 +263,7 @@ header
 {
 	display: flex;
 }
+
 
 #Hebergement2 i
 {
@@ -280,6 +303,8 @@ header
 {
 	margin-left: 25px;
 	text-align: center;
+	font-size: 1.2em;
+    font-weight: bold;
 }
 
 .aside figure
@@ -320,9 +345,10 @@ header
 
 #Section3 h2
 {
-	clear: both;
  	padding-top: 35px;
  	margin-bottom: 0;
+ 	font-size: 1.2em;
+    font-weight: bold;
 }
 
 
@@ -366,19 +392,33 @@ header
 	margin-top: 25px;
 }
 
+
+#footer h3
+{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+#footer p
+{
+	font-size: 0.9em;
+}
+
+
 #A_propos
 {
-	margin-left: 40px;
+	margin-left: 50px;
 }
 
 
 #Nos_Hebergements
 {
-	margin-left: 120px;
+	margin-left: 130px;
 }
 
 
 #Assistance
 {
-	margin-left: 150px;
+	margin-left: 160px;
 }
