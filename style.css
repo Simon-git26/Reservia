@@ -177,7 +177,14 @@ header
 
 
 
-
+figure
+{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
 
 /* LOGEMENT */
 
@@ -227,6 +234,7 @@ header
 	margin-bottom: 0;
 	font-size: 1.2em;
 	font-weight: bold;
+	margin-top: 15.936px;
 }
 
 #Section2 p
