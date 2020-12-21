@@ -1,0 +1,61 @@
+
+#Page_Complete
+{
+	width: auto;
+	margin: auto;
+}
+
+
+
+
+
+
+
+#Section3
+{
+	width: 205px;
+}
+
+
+
+#Conteneur
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+#footer
+{
+	width: 260px;
+	margin: auto;
+}
+
+
+
+#A_propos
+{
+	margin-left: 50px;
+	margin-top: 0px;
+}
+
+
+#Nos_Hebergements
+{
+	margin-left: 50px;
+	margin-top: 28px;
+}
+
+
+#Assistance
+{
+	margin-left: 50px;
+	margin-top: 28px;
+}
