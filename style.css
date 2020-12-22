@@ -13,7 +13,8 @@ body a
 }
 
 
-/* DEBUT HEADER */
+
+/* HEADER */
 
 header
 {
@@ -22,6 +23,7 @@ header
 	padding-top: 30px;
 	margin-bottom: 20px;
 }
+
 
 
 
@@ -52,6 +54,7 @@ header
 
 
 
+
 /* TITRE */
 
 #Section1 h1
@@ -69,8 +72,9 @@ header
 
 
 
-/* FORMULAIRE */
 
+
+/* FORMULAIRE */
 
 #Form p
 {
@@ -109,6 +113,7 @@ header
 
 
 
+
 /* FILTRES CONTENEUR */
 
 #Filtres
@@ -125,6 +130,7 @@ header
 	font-weight: bold;
 	font-size: 0.9em;
 }
+
 
 
 /* FILTRES */
@@ -190,6 +196,9 @@ figure
     margin-inline-end: 40px;
 }
 
+
+
+
 /* LOGEMENT */
 
 #Logement
@@ -223,7 +232,6 @@ figure
 
 
 /* SECTION 2 */
-
 
 #Section2
 {
@@ -302,8 +310,9 @@ figure
 
 
 
-/* ASIDE */
 
+
+/* ASIDE */
 
 #Aside
 {

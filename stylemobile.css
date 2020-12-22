@@ -7,6 +7,10 @@
 
 
 
+
+
+/* SECTION 2 */
+
 #Section2
 {
 	float: none;
@@ -35,8 +39,6 @@
 }
 
 
-
-
 #Hebergement1
 {
 	flex-direction: column;
@@ -49,29 +51,37 @@
 
 
 
+
+
+
+/* ASIDE */
+
 #Aside 
 {
 	float: none;
 	width: auto;
-	margin: auto;
 	border-radius: 0;
+	height: 445px;
 }
 
+#Aside h2
+{
+	padding-top: 10px;
+}
 
 .aside figure
 {
 	margin: auto;
 	margin-bottom: 10px;
-}
-
-
-.flex
-{
 	width: 386px;
 }
 
 
 
+
+
+
+/* SECTION 3 */
 
 #Section3
 {
