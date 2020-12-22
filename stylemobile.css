@@ -7,15 +7,86 @@
 
 
 
+#Section2
+{
+	float: none;
+	height: auto;
+	background-color: transparent;
+	margin: auto;
+}
+
+#Section2 img
+{
+	width: 386px;
+	height: 141px;
+}
+
+#Section2 figure
+{
+	margin-left: 0px;
+	background-color: #F2F2F2;
+	width: 393px;
+}
+
+.photo
+{
+	width: 386px;
+	height: 260px;
+}
+
+
+
+
+#Hebergement1
+{
+	flex-direction: column;
+}
+
+#Hebergement2
+{
+	flex-direction: column;
+}
+
+
+
+#Aside 
+{
+	float: none;
+	width: auto;
+	margin: auto;
+	border-radius: 0;
+}
+
+
+.aside figure
+{
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+
+.flex
+{
+	width: 386px;
+}
 
 
 
 
 #Section3
 {
-	width: 205px;
+	width: 386px;
+	margin: auto;
+	clear: none;
 }
 
+
+
+.Activite img
+{
+	width: 386px;
+	height: 141px;
+}
 
 
 #Conteneur
@@ -34,7 +105,7 @@
 
 #footer
 {
-	width: 260px;
+	width: 100%;
 	margin: auto;
 }
 
