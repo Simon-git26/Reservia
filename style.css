@@ -122,6 +122,11 @@ header
 	align-items: baseline;
 }
 
+#regroupe
+{
+	display: flex;
+}
+
 #Filtres p
 {
 	margin-right: 20px;

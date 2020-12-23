@@ -15,19 +15,30 @@
 	display: inline;
 }
 
-#bloc1
+#regroupe
 {
 	display: flex;
+}
+
+
+#bloc1
+{
 	margin-bottom: 12px;
 }
 
 #bloc2
 {
+	margin-bottom: 12px;
+}
+
+
+#bloc3
+{
 	width: 165px;
 	margin-bottom: 12px;
 }
 
-#bloc3
+#bloc4
 {
 	width: 205px;
 	margin-bottom: 12px;
