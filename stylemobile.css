@@ -8,6 +8,32 @@
 
 
 
+/* SECTION 1 FILTRES */
+
+#Filtres
+{
+	display: inline;
+}
+
+#bloc1
+{
+	display: flex;
+	margin-bottom: 12px;
+}
+
+#bloc2
+{
+	width: 165px;
+	margin-bottom: 12px;
+}
+
+#bloc3
+{
+	width: 205px;
+	margin-bottom: 12px;
+}
+
+
 
 /* SECTION 2 */
 
