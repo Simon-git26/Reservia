@@ -454,9 +454,9 @@ figure
 }
 
 
-#footer p
+#footer a
 {
-	font-size: 0.8em;
+	font-size: 1em;
 	margin-bottom: 8px;
 }
 
@@ -465,6 +465,8 @@ figure
 {
 	margin-left: 50px;
 	width: 80%;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -472,6 +474,8 @@ figure
 {
 	margin-left: 115px;
 	width: 70%;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -479,4 +483,6 @@ figure
 {
 	margin-left: 130px;
 	width: 40%;
+	display: flex;
+	flex-direction: column;
 }
