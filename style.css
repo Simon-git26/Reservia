@@ -1,6 +1,6 @@
 
 
-#Page_Complete
+#page_complete
 {
 	width: 1000px;
 	margin: auto;
@@ -29,24 +29,24 @@ header
 
 /* NAVIGUATION */
 
-#Naviguation ul
+#naviguation ul
 {
 	list-style-type: none;
 	display: flex;
 }
 
-#Naviguation li
+#naviguation li
 {
 	padding-left: 50px;
 	font-size: 0.8em;
 }
 
-#Naviguation li a
+#naviguation li a
 {
 	text-decoration: none;
 }
 
-#Naviguation a:hover
+#naviguation a:hover
 {
 	border-top: 2px #0065FC solid;
 	padding-top: 25px;
@@ -57,13 +57,13 @@ header
 
 /* TITRE */
 
-#Section1 h1
+#section1 h1
 {
 	margin-bottom: 0px;
 	font-size: 1.1em;
 }
 
-#Section1 h1 + p
+#section1 h1 + p
 {
 	margin-top: 5px;
 	font-size: 0.8em;
@@ -116,7 +116,7 @@ header
 
 /* FILTRES CONTENEUR */
 
-#Filtres
+#filtres
 {
 	display: flex;
 	align-items: baseline;
@@ -127,7 +127,7 @@ header
 	display: flex;
 }
 
-#Filtres p
+#filtres p
 {
 	margin-right: 20px;
 	margin-bottom: 11px;
@@ -140,7 +140,7 @@ header
 
 /* FILTRES */
 
-.Filter
+.filter
 {
 	display: flex;
 	align-items: center;
@@ -160,7 +160,7 @@ header
 	font-size: 0.9em;
 }
 
-.Filter i
+.filter i
 {
 	display: flex;
 	justify-content: center;
@@ -185,7 +185,7 @@ header
 }
 
 
-.Filter:hover
+.filter:hover
 {
 	background-color: #cfcfcf;
 }
@@ -206,13 +206,13 @@ figure
 
 /* LOGEMENT */
 
-#Logement
+#logement
 {
 	display: flex;
 	align-items: baseline;
 }
 
-#Logement p
+#logement p
 {
 	margin-left: 8px;
 	font-size: 0.8em;
@@ -220,7 +220,7 @@ figure
 	margin-bottom: 25px;
 }
 
-#Logement i
+#logement i
 {
 	color: #0065FC;
 	border: 1px solid #F2F2F2; 
@@ -238,7 +238,7 @@ figure
 
 /* SECTION 2 */
 
-#Section2
+#section2
 {
 	background-color: #F2F2F2;
 	width: 63%;
@@ -247,7 +247,7 @@ figure
 	float: left;
 }
 
-#Section2 h2
+#section2 h2
 {
 	margin-left: 25px;
 	margin-bottom: 0;
@@ -256,7 +256,7 @@ figure
 	margin-top: 20px;
 }
 
-#Section2 p
+#section2 p
 {
 	margin-left: 25px;
 	margin-top: 12px;
@@ -276,24 +276,24 @@ figure
 	font-size: 0.75em;
 }
 
-#Hebergement1
+#hebergement1
 {
 	display: flex;
 }
 
-#Hebergement1 i
+#hebergement1 i
 {
 	color: #0065FC;
 }
 
 
-#Hebergement2
+#hebergement2
 {
 	display: flex;
 }
 
 
-#Hebergement2 i
+#hebergement2 i
 {
 	color: #0065FC;
 }
@@ -319,7 +319,7 @@ figure
 
 /* ASIDE */
 
-#Aside
+#aside_conteneur
 {
 	background-color: #F2F2F2;
 	width: 32%;
@@ -328,7 +328,7 @@ figure
 	float: right;
 }
 
-#Aside h2
+#aside_conteneur h2
 {
 	margin-left: 25px;
 	text-align: center;
@@ -379,13 +379,13 @@ figure
 
 /* SECTION 3 */
 
-#Section3
+#section3
 {
 	clear: both;
 }
 
 
-#Section3 h2
+#section3 h2
 {
  	padding-top: 40px;
  	margin-bottom: 0;
@@ -394,14 +394,14 @@ figure
 }
 
 
-#Conteneur
+#conteneur
 {
 	display: flex;
 	justify-content: space-between;
 }
 
 
-#Section3 figcaption
+#section3 figcaption
 {
 	padding-top: 6px;
 	padding-bottom: 10px;
@@ -409,7 +409,7 @@ figure
 }
 
 
-.Activite figure
+.activite figure
 {
 	background-color: #f0f0f0;
     border-radius: 18px;
@@ -417,7 +417,7 @@ figure
     margin-left: 25px;
 }
 
-.Activite img
+.activite img
 {
 	border-radius: 10px 10px 0px 0px;
 }
@@ -453,21 +453,21 @@ figure
 }
 
 
-#A_propos
+#a_propos
 {
 	margin-left: 50px;
 	width: 80%;
 }
 
 
-#Nos_Hebergements
+#nos_hebergements
 {
 	margin-left: 115px;
 	width: 70%;
 }
 
 
-#Assistance
+#assistance
 {
 	margin-left: 130px;
 	width: 40%;

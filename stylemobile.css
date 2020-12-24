@@ -1,5 +1,5 @@
 
-#Page_Complete
+#page_complete
 {
 	width: auto;
 	margin: auto;
@@ -10,7 +10,7 @@
 
 /* SECTION 1 FILTRES */
 
-#Filtres
+#filtres
 {
 	display: inline;
 }
@@ -48,7 +48,7 @@
 
 /* SECTION 2 */
 
-#Section2
+#section2
 {
 	float: none;
 	height: auto;
@@ -56,13 +56,13 @@
 	margin: auto;
 }
 
-#Section2 img
+#section2 img
 {
 	width: 386px;
 	height: 141px;
 }
 
-#Section2 figure
+#section2 figure
 {
 	margin-left: 0px;
 	background-color: #F2F2F2;
@@ -76,12 +76,12 @@
 }
 
 
-#Hebergement1
+#hebergement1
 {
 	flex-direction: column;
 }
 
-#Hebergement2
+#hebergement2
 {
 	flex-direction: column;
 }
@@ -93,7 +93,7 @@
 
 /* ASIDE */
 
-#Aside 
+#aside_conteneur
 {
 	float: none;
 	width: auto;
@@ -101,7 +101,7 @@
 	height: 445px;
 }
 
-#Aside h2
+#aside_conteneur h2
 {
 	padding-top: 10px;
 }
@@ -120,7 +120,7 @@
 
 /* SECTION 3 */
 
-#Section3
+#section3
 {
 	width: 386px;
 	margin: auto;
@@ -129,14 +129,14 @@
 
 
 
-.Activite img
+.activite img
 {
 	width: 386px;
 	height: 141px;
 }
 
 
-#Conteneur
+#conteneur
 {
 	display: flex;
 	flex-direction: column;
@@ -158,21 +158,21 @@
 
 
 
-#A_propos
+#a_propos
 {
 	margin-left: 50px;
 	margin-top: 0px;
 }
 
 
-#Nos_Hebergements
+#nos_hebergements
 {
 	margin-left: 50px;
 	margin-top: 28px;
 }
 
 
-#Assistance
+#assistance
 {
 	margin-left: 50px;
 	margin-top: 28px;
