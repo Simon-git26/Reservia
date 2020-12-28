@@ -294,7 +294,7 @@ figure
 
 .price_accomodation
 {
-	font-size: 0.9em;
+	font-size: 0.95em;
     font-weight: normal;
     margin-top: 0px;
 }
@@ -502,4 +502,46 @@ figure
 	width: 40%;
 	display: flex;
 	flex-direction: column;
+}
+
+
+
+
+.bloc_grid
+{
+	display: grid;
+	width: 1000px;
+	height: 310px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	background-color: #e3e3e3;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 20px;
+}
+
+.items
+{
+	border: 2px solid green;
+}
+
+
+.items1
+{
+	background-color: #e3e3e3;
+	border: 2px solid green;
+	grid-column-start: 1;
+  	grid-column-end: 1;
+  	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.items3
+{
+	background-color: #e3e3e3;
+	border: 2px solid green;
+	grid-column-start: 3;
+  	grid-column-end: 3;
+  	grid-row-start: 1;
+  	grid-row-end: 3;
 }
