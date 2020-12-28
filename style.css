@@ -20,7 +20,7 @@ header
 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 10px;
+	padding-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -29,30 +29,41 @@ header
 
 /* NAVIGUATION */
 
-#naviguation ul
+
+#naviguation
 {
-	list-style-type: none;
-	display: flex;
+	display: flex
 }
 
-#naviguation li
+#naviguation nav
 {
-	padding-left: 50px;
-	font-size: 0.8em;
-}
-
-#naviguation li a
-{
-	text-decoration: none;
+	font-size: 1em;
 }
 
 #naviguation a:hover
 {
 	border-top: 2px #0065FC solid;
 	padding-top: 25px;
+	color: #0065FC;
 }
 
+#naviguation a
+{
+	margin-left: 40px;
+}
 
+.button
+{
+	border: none;
+	background-color: transparent;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#button_color
+{
+	color: #0065FC;
+}
 
 
 /* TITRE */
@@ -60,13 +71,13 @@ header
 #section1 h1
 {
 	margin-bottom: 0px;
-	font-size: 1.1em;
+	font-size: 1.25em;
 }
 
 #section1 h1 + p
 {
 	margin-top: 5px;
-	font-size: 0.8em;
+	font-size: 0.85em;
 	margin-bottom: 10px;
 }
 
