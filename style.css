@@ -58,12 +58,10 @@ header
 	background-color: transparent;
 	font-size: 0.9em;
 	font-weight: bold;
-}
-
-#button_color
-{
 	color: #0065FC;
 }
+
+
 
 
 /* TITRE */
@@ -150,6 +148,7 @@ header
 
 
 
+
 /* FILTRES */
 
 .filter
@@ -188,7 +187,6 @@ header
     width: 36px;
 }
 
-
 .filter_text:hover
 {
 	color: #0065FC;
@@ -196,12 +194,10 @@ header
 	border-bottom: 1px solid #0065FC;
 }
 
-
 .filter:hover
 {
 	background-color: #cfcfcf;
 }
-
 
 
 figure
@@ -249,7 +245,6 @@ figure
 
 
 /* SECTION 2 */
-
 
 
 .fa-star
@@ -321,7 +316,6 @@ figure
 	color: #0065FC;
 }
 
-
 .photo figure
 {
 	background-color: white;
@@ -381,8 +375,6 @@ figure
 	color: #0065FC;
 }
 
-
-
 .aside figcaption
 {
 	margin-left: 10px;
@@ -390,7 +382,6 @@ figure
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .flex
 {
@@ -451,7 +442,6 @@ figure
 
 
 
-
 /* CSS GRID */
 
 .bloc_grid
@@ -462,18 +452,20 @@ figure
 	margin-top: 15px;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 20px;
+	margin-bottom: 40px;
 }
 
 .bloc_grid p
 {
-	margin: 0px;
+	margin-top: 5px;
+	margin-left: 15px;
+	font-weight: bold;
 }
 
 .bloc_grid img
 {
 	border-radius: 16px 16px 0 0;
 }
-
 
 
 .items1
@@ -489,7 +481,6 @@ figure
 }
 
 
-
 .items2
 {
 	background-color: #f0f0f0;
@@ -501,7 +492,6 @@ figure
   	grid-row-start: 1;
 	grid-row-end: 3;
 }
-
 
 
 .items3
@@ -517,7 +507,6 @@ figure
 }
 
 
-
 .items4
 {
 	background-color: #f0f0f0;
@@ -529,7 +518,6 @@ figure
 	grid-row-start: 1;
   grid-row-end: 2;
 }
-
 
 
 .items5
@@ -545,7 +533,6 @@ figure
 }
 
 
-
 .items6
 {
 	background-color: #f0f0f0;
@@ -557,8 +544,6 @@ figure
 	grid-row-start: 2;
   grid-row-end: 4;
 }
-
-
 
 
 
@@ -617,4 +602,3 @@ figure
 	display: flex;
 	flex-direction: column;
 }
-
