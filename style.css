@@ -1,4 +1,17 @@
 
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+}
 
 #page_complete
 {
@@ -11,6 +24,7 @@ body a
 	text-decoration: none;
 	color: black;
 }
+
 
 
 
@@ -37,7 +51,7 @@ header
 
 #naviguation nav
 {
-	font-size: 1em;
+	font-size: 0.85em;
 }
 
 #naviguation a:hover
@@ -56,7 +70,7 @@ header
 {
 	border: none;
 	background-color: transparent;
-	font-size: 0.9em;
+	font-size: 0.85em;
 	font-weight: bold;
 	color: #0065FC;
 }
@@ -69,14 +83,14 @@ header
 #section1 h1
 {
 	margin-bottom: 0px;
-	font-size: 1.25em;
+	font-size: 1.05em;
 }
 
 #section1 h1 + p
 {
 	margin-top: 5px;
-	font-size: 0.85em;
-	margin-bottom: 10px;
+	font-size: 0.75em;
+	margin-bottom: 15px;
 }
 
 
@@ -168,7 +182,7 @@ header
 	padding-right: 10px;
 	padding-left: 35px;
 	font-weight: bold;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 .filter i
@@ -266,9 +280,9 @@ figure
 {
 	margin-left: 25px;
 	margin-bottom: 0;
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 #section2 p
@@ -284,12 +298,12 @@ figure
 {
 	margin-top: 5px;
 	font-weight: bold;
-	font-size: 0.90em;
+	font-size: 0.80em;
 }
 
 .price_accomodation
 {
-	font-size: 0.95em;
+	font-size: 0.75em;
     font-weight: normal;
     margin-top: 0px;
 }
@@ -347,12 +361,12 @@ figure
 
 #aside_conteneur h2
 {
-	font-size: 1.1em;
+	font-size: 1em;
     font-weight: bold;
     display: flex;
     text-align: center;
 	justify-content: space-around;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .aside figure
@@ -405,7 +419,7 @@ figure
 {
  	padding-top: 40px;
  	margin-bottom: 0;
- 	font-size: 1.1em;
+ 	font-size: 1em;
     font-weight: bold;
 }
 
@@ -447,10 +461,9 @@ figure
 .bloc_grid
 {
 	display: grid;
-	width: 1000px;
 	height: 306px;
 	margin-top: 15px;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px;
 	margin-bottom: 40px;
 }
@@ -460,11 +473,14 @@ figure
 	margin-top: 5px;
 	margin-left: 15px;
 	font-weight: bold;
+	font-size: 0.9em;
 }
 
 .bloc_grid img
 {
 	border-radius: 16px 16px 0 0;
+	width: 100%;
+
 }
 
 
@@ -475,8 +491,7 @@ figure
   	grid-column-end: 1;
   	grid-row-start: 1;
 	grid-row-end: 4;
-	height: 306px;
-	width: 225px;  
+	height: 306px; 
 	border-radius: 16px;
 }
 
@@ -484,7 +499,6 @@ figure
 .items2
 {
 	background-color: #f0f0f0;
-	width: 205px;
 	height: 172px;
 	border-radius: 16px;
 	grid-column-start: 2;
@@ -502,7 +516,6 @@ figure
   	grid-row-start: 1;
 	grid-row-end: 5;
 	height: 306px;
-	width: 225px;
 	border-radius: 16px;
 }
 
@@ -510,7 +523,6 @@ figure
 .items4
 {
 	background-color: #f0f0f0;
-	width: 220px;
 	height: 135px;
 	border-radius: 16px;
 	grid-column-start: 4;
@@ -523,7 +535,6 @@ figure
 .items5
 {
 	background-color: #f0f0f0;
-	width: 205px;
 	height: 110px;
 	border-radius: 16px;
 	grid-column-start: 2;
@@ -536,7 +547,6 @@ figure
 .items6
 {
 	background-color: #f0f0f0;
-	width: 220px;
 	height: 151px;
 	border-radius: 16px;
 	grid-column-start: 4;
@@ -556,7 +566,7 @@ figure
 	display: flex;
 	background-color: #F2F2F2;
 	margin-top: 25px;
-	padding-top: 25px;
+	padding-top: 30px;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
 }
@@ -565,14 +575,14 @@ figure
 #footer h3
 {
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 0.9em;
 	margin-bottom: 15px;
 }
 
 
 #footer a
 {
-	font-size: 1em;
+	font-size: 0.9em;
 	margin-bottom: 8px;
 }
 
