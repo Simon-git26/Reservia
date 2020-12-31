@@ -86,6 +86,7 @@ header
 {
 	margin-bottom: 0px;
 	font-size: 1.05em;
+	color: black;
 }
 
 #section1 h1 + p
@@ -286,12 +287,14 @@ figure
 
 #section2 h2
 {
+	color: black;
 	margin-left: 25px;
 	margin-bottom: 0;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 25px;
 }
+
 
 #section2 p
 {
@@ -377,6 +380,7 @@ figure
 
 #aside_conteneur h2
 {
+	color: black;
 	font-size: 1em;
     font-weight: bold;
     display: flex;
