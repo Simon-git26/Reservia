@@ -113,8 +113,14 @@ header
     border-radius: 35% 0% 0% 35%;
     height: 35px;
     width: 35px;
-    padding-left: 12px;
-    padding-top: 8px;
+	text-align: center;
+    padding-top: 7px;
+}
+
+
+.fa-map-marker-alt
+{
+	font-size: 0.85em;
 }
 
 
@@ -281,7 +287,7 @@ figure
 	background-color: #F2F2F2;
 	width: 63%;
 	border-radius: 15px;
-	height: 465px;
+	height: 460px;
 	float: left;
 }
 
@@ -299,10 +305,9 @@ figure
 #section2 p
 {
 	margin-left: 25px;
-	margin-top: 12px;
-	margin-bottom: 15px;
+	margin-top: 25px;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 
@@ -321,7 +326,7 @@ figure
 
 .price_accomodation
 {
-	font-size: 0.75em;
+	font-size: 0.70em;
     font-weight: normal;
 	margin-top: 5px;
 	color: black;
@@ -353,9 +358,11 @@ figure
 {
 	background-color: white;
     border: 3.5px solid white;
-    border-radius: 18px;
+    border-radius: 14px;
     margin-right: 0px;
-    margin-left: 25px;
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-bottom: 0;
 }
 
 .photo img
@@ -374,7 +381,7 @@ figure
 	background-color: #F2F2F2;
 	width: 32%;
 	border-radius: 15px;
-	height: 465px;
+	height: 460px;
 	float: right;
 }
 
