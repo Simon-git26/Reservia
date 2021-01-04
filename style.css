@@ -507,6 +507,7 @@ figure
   	grid-row-start: 1;
 	grid-row-end: 4;
 	position: relative;
+	height: 330px;
 }
 
 .title_grid
@@ -530,6 +531,7 @@ figure
   	grid-row-start: 1;
 	grid-row-end: 3;
 	position: relative;
+	height: 190px;
 }
 
 .items3
@@ -539,6 +541,7 @@ figure
   	grid-row-start: 1;
 	grid-row-end: 4;
 	position: relative;
+	height: 330px;
 }
 
 .items4
@@ -548,6 +551,7 @@ figure
 	grid-row-start: 1;
 	grid-row-end: 2;
 	position: relative;
+	height: 140px;
 }
 
 .items5
@@ -557,6 +561,7 @@ figure
 	grid-row-start: 3;
 	grid-row-end: 4;
 	position: relative;
+	height: 120px;
 }
 
 .items6
@@ -566,6 +571,7 @@ figure
 	grid-row-start: 2;
 	grid-row-end: 4;
 	position: relative;  
+	height: 170px;
 }
 
 
