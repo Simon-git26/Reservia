@@ -15,6 +15,12 @@
 
 
 
+
+/* Header nav */
+
+
+
+
 /* SECTION 1 FILTRES */
 
 #filtres
@@ -72,7 +78,7 @@
 #section2 figure
 {
 	margin-left: 0px;
-	background-color: #F2F2F2;
+	background-color: white;
 	width: 393px;
 }
 
@@ -127,10 +133,15 @@
 
 /* SECTION 3 */
 
+#section3 h2
+{
+	margin-left: 25px;
+	font-size: 1.2em;
+}
 
 .bloc_grid
 {
-	padding-top: 15px;
+	padding-top: 20px;
 	width: 90%;
 	margin: auto;
 	margin-bottom: 40px;
