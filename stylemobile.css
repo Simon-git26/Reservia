@@ -125,20 +125,32 @@
 
 
 
-
 /* SECTION 3 */
+
 
 .bloc_grid
 {
-	display: grid;
-	grid-template: auto / repeat(12, 1fr);
+	padding-top: 15px;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 40px;
+	grid-gap: 22px;
 }
+
+.title_grid
+{
+	height: 52px;
+	padding-top: 20px;
+}
+
 
 .items1, .items2, .items3, .items4, .items5, .items6
 {
 	grid-column-start: 1;
 	grid-column-end: span 12;
+	height: 175px;
 }
+
 
 .items1
 {
@@ -150,6 +162,7 @@
 {
 	grid-row-start: 2;
 	grid-row-end: 2;
+
 }
 
 .items3
@@ -175,8 +188,6 @@
 	grid-row-start: 6;
 	grid-row-end: 6;
 }
-
-
 
 
 
