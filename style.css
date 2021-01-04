@@ -33,22 +33,29 @@ body a
 header
 {
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
 	padding-top: 30px;
 	margin-bottom: 20px;
 }
 
 
 
-
 /* NAVIGUATION */
 
-
-#naviguation
+#logo
 {
+	position: relative;
+}
+
+
+#place
+{
+	position: absolute;
+	right: 25%;
 	display: flex;
 	align-items: baseline;
 }
+
 
 #naviguation nav
 {
