@@ -34,6 +34,7 @@ header
 {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	padding-top: 30px;
 	margin-bottom: 20px;
 }
@@ -42,16 +43,9 @@ header
 
 /* NAVIGUATION */
 
-#logo
-{
-	position: relative;
-}
-
 
 #place
 {
-	position: absolute;
-	right: 25%;
 	display: flex;
 	align-items: baseline;
 }

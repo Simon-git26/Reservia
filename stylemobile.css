@@ -18,13 +18,23 @@
 
 /* Header nav */
 
+header
+{
+	justify-content: inherit;
+	align-items: inherit;
+}
 
-
-
+#logo, #naviguation
+{
+	display: flex;
+	flex-direction: column;
+}
 
 
 
 /* SECTION 1 FILTRES */
+
+
 
 #filtres
 {
@@ -69,28 +79,47 @@
 	float: none;
 	height: auto;
 	background-color: transparent;
-	margin: auto;
+	width: 435px;
+    margin: auto;
 }
 
-#section2 img
+#section2 img 
 {
-	width: 386px;
-	height: 141px;
+    width: 427px;
+	height: 115px;
+}
+
+#section2 p 
+{
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 1em;
+}
+
+#section2 h2
+{
+	margin-left: 0;
+	margin-left: 0;
+    font-size: 1.3em;
 }
 
 #section2 figure
 {
-	margin-left: 0px;
 	background-color: white;
-	width: 393px;
+	width: 435px;
+    height: 195px;
 }
 
 .photo
 {
-	width: 386px;
-	height: 260px;
+	width: 435px;
 }
 
+.photo figure
+{
+	margin-right: 0px;
+    margin-left: 0px;
+}
 
 #hebergement1
 {
@@ -103,6 +132,15 @@
 }
 
 
+.name_accommodation
+{
+    font-size: 0.9em;
+}
+
+.price_accomodation 
+{
+    font-size: 0.80em;
+}
 
 
 
