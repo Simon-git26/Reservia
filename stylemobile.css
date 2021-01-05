@@ -35,7 +35,6 @@ header
 /* SECTION 1 FILTRES */
 
 
-
 #filtres
 {
 	display: inline;
@@ -72,7 +71,16 @@ header
 
 
 
+
+
+
 /* SECTION 2 */
+
+#responsiv
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
 
 #section2
 {
@@ -92,14 +100,14 @@ header
 #section2 p 
 {
     margin-left: 0px;
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 1em;
 }
 
 #section2 h2
 {
 	margin-left: 0;
-	margin-left: 0;
+	margin-top: 35px;
     font-size: 1.3em;
 }
 
@@ -152,17 +160,19 @@ header
 	float: none;
 	width: auto;
 	border-radius: 0;
-	height: 565px;
+	height: 580px;
 }
 
 
-#aside_conteneur h2 {
-    padding-top: 40px;
-    margin-bottom: 25px;
-	font-size: 1.3em;
-	width: 300px;
+#aside_conteneur h2
+{
+    margin-bottom: 27px;
+    margin-top: 0;
+    font-size: 1.3em;
+    width: 300px;
     margin-left: 90px;
     justify-content: space-between;
+    padding-top: 40px;
 }
 
 
@@ -171,7 +181,7 @@ header
     margin: auto;
     margin-bottom: 10px;
 	width: 300px;
-	height: 140px;
+	height: 145px;
 }
 
 .aside img
@@ -189,25 +199,32 @@ header
 
 /* SECTION 3 */
 
-#section3 h2
+#section3
 {
-	margin-left: 25px;
-	font-size: 1.2em;
+	margin-bottom: 50px;
+}
+
+#section3 h2 
+{
+    margin-left: 25px;
+    font-size: 1.3em;
+    padding-top: 50px;
 }
 
 .bloc_grid
 {
-	padding-top: 20px;
+	padding-top: 30px;
 	width: 90%;
 	margin: auto;
 	margin-bottom: 40px;
-	grid-gap: 22px;
+	grid-gap: 23px;
 }
 
 .title_grid
 {
-	height: 52px;
+	height: 55px;
 	padding-top: 20px;
+	font-size: 0.95em;
 }
 
 
@@ -215,7 +232,7 @@ header
 {
 	grid-column-start: 1;
 	grid-column-end: span 12;
-	height: 175px;
+	height: 190px;
 }
 
 
@@ -263,9 +280,32 @@ header
 
 /* FOOTER */
 
+#footer 
+{
+	height: 485px;
+	padding-top: 0px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+#footer h3 
+{
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+#footer a
+{
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+
 #pos
 {
 	display: inline;
+	margin-left: 25px;
+    margin-top: 45px;
 }
 
 #a_propos
