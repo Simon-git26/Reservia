@@ -152,23 +152,38 @@ header
 	float: none;
 	width: auto;
 	border-radius: 0;
-	height: 445px;
+	height: 565px;
 }
 
-#aside_conteneur h2
+
+#aside_conteneur h2 {
+    padding-top: 40px;
+    margin-bottom: 25px;
+	font-size: 1.3em;
+	width: 300px;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+
+.aside figure 
 {
-	padding-top: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+	width: 300px;
+	height: 140px;
 }
 
-.aside figure
+.aside img
 {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 386px;
+	width: 125px;
 }
 
-
-
+.aside figcaption
+{
+	padding-top: 5px;
+    padding-bottom: 8px;
+}
 
 
 
