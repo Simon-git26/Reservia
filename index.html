@@ -17,18 +17,17 @@
 				<div id="logo">
 					<img src="Images/Logo/Reservia.png" alt="Logo_Reservia">
 				</div>
-				<div id="place">
-					<div id="button">
-						<button class="button">S'inscrire</button>
-					</div>
 				
+				<div id="place">
 					<div id="naviguation">
 						<nav>
 							<a href="#section2">Hébergements</a>
 							<a href="#section3">Activités</a>
 						</nav>
 					</div>
-
+					<div id="button">
+						<button class="button">S'inscrire</button>
+					</div>
 				</div> 
 			</header>
 
@@ -39,7 +38,7 @@
                     
 						<form method="post" action="traitement.php" id="form">
 							<label for="localisation"><i class="fas fa-map-marker-alt"></i></label>
-							<input type="text" name="localisation" id="localisation" />
+							<input class="search" type="text" name="localisation" value="Marseille,France" id="localisation" />
 							<input type="submit" name="Rechercher" value="Rechercher" id="recherche_bouton" />
 						</form>
 

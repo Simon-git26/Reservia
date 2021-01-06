@@ -48,7 +48,6 @@ header
 {
 	display: flex;
 	align-items: baseline;
-	flex-direction: row-reverse;
 }
 
 
@@ -103,6 +102,16 @@ header
 
 
 /* FORMULAIRE */
+
+.search
+{
+    width: 150px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
+
 #form
 {
 	display: flex;
