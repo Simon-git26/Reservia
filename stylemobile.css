@@ -20,6 +20,33 @@
 
 /* Header nav */
 
+header
+{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+
+#naviguation
+{
+	order: 3;
+}
+
+
+#button
+{
+	order: 2;
+}
+
+#naviguation #logo
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
 
 
 /* SECTION1 */
