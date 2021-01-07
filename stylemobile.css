@@ -27,23 +27,39 @@ header
 	margin-bottom: 30px;
 }
 
-#naviguation
+nav
 {
 	order: 3;
+	width: 100%;
 }
 
 
-#button
-{
-	order: 2;
-}
-
-
-
-#logo
+#width
 {
 	width: 50%;
 }
+
+#place
+{
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head
+{
+	width: 100%;
+}
+
+
+.button
+{
+    padding-top: 17px;
+}
+
+
+
 
 
 
@@ -126,29 +142,32 @@ header
 
 #section2 img 
 {
-    width: 427px;
+    width: 100%;
 	height: 115px;
 }
 
 #section2 p 
 {
-    margin-left: 0px;
+    margin-left: 10%;
     margin-top: 30px;
     font-size: 1em;
 }
 
-#section2 h2
+#section2 h2 
 {
-	margin-left: 0;
-	margin-top: 35px;
-    font-size: 1.3em;
+    margin-left: 10%;
+    margin-top: 35px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
 }
 
 #section2 figure
 {
 	background-color: white;
-	width: 435px;
-    height: 195px;
+	width: 80%;
+	height: 195px;
+	margin: auto;
+	margin-bottom: 15px;
 }
 
 .photo
@@ -175,12 +194,12 @@ header
 
 .name_accommodation
 {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .price_accomodation 
 {
-    font-size: 0.80em;
+    font-size: 0.9em;
 }
 
 
@@ -191,7 +210,7 @@ header
 #aside_conteneur
 {
 	float: none;
-	width: auto;
+	width: 100%;
 	border-radius: 0;
 	height: 580px;
 }
@@ -202,9 +221,7 @@ header
     margin-bottom: 27px;
     margin-top: 0;
     font-size: 1.3em;
-    width: 300px;
-    margin-left: 90px;
-    justify-content: space-between;
+    width: 100%;
     padding-top: 40px;
 }
 
@@ -213,7 +230,7 @@ header
 {
     margin: auto;
     margin-bottom: 10px;
-	width: 300px;
+	width: 65%;
 	height: 145px;
 }
 
@@ -239,7 +256,7 @@ header
 
 #section3 h2 
 {
-    margin-left: 25px;
+    margin-left: 65px;
     font-size: 1.3em;
     padding-top: 50px;
 }
@@ -266,6 +283,8 @@ header
 	grid-column-start: 1;
 	grid-column-end: span 12;
 	height: 190px;
+	width: 80%;
+	margin: auto;
 }
 
 

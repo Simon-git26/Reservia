@@ -32,11 +32,15 @@ body a
 
 header
 {
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+#head
+{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 30px;
-	margin-bottom: 20px;
 }
 
 /* NAVIGUATION */
@@ -222,7 +226,6 @@ nav a
 {
 	color: #0065FC;
 	margin-left: 15px;
-	border-bottom: 1px solid #0065FC;
 }
 
 .filter:hover
