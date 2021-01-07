@@ -48,19 +48,19 @@ header
 }
 
 
-#naviguation nav
+nav
 {
 	font-size: 0.85em;
 }
 
-#naviguation a:hover
+nav a:hover
 {
 	border-top: 2px #0065FC solid;
 	padding-top: 25px;
 	color: #0065FC;
 }
 
-#naviguation a
+nav a
 {
 	margin-left: 40px;
 }
