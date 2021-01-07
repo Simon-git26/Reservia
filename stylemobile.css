@@ -20,49 +20,10 @@
 
 /* Header nav */
 
-header
-{
-	width: 100%;
-	margin: auto;
-	margin-bottom: 30px;
-}
-
-nav
-{
-	order: 3;
-	width: 100%;
-}
-
-
-#width
-{
-	width: 50%;
-}
-
-#place
-{
-	display: flex;
-	flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#head
-{
-	width: 100%;
-}
-
-
 .button
 {
-    padding-top: 17px;
+	order: -2;
 }
-
-
-
-
-
-
 
 
 /* SECTION1 */
