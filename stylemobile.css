@@ -26,6 +26,9 @@
 }
 
 
+
+
+
 /* SECTION1 */
 
 #section1
@@ -38,6 +41,31 @@
 #section1 h1
 {
 	font-size: 1.2em;
+}
+
+
+/* Bouton formulaire */
+
+#recherche_bouton
+{
+	display: none;
+}
+
+
+.search-button
+{
+	display: flex;
+	cursor: pointer;
+	background-color: #0065FC;
+	color: white;
+	border-radius: 12px;
+	width: 35px;
+}
+
+.fa-search
+{
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 

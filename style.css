@@ -147,6 +147,7 @@ nav a
 
 #recherche_bouton
 {
+	cursor: pointer;
 	background-color: #0065FC;
 	color: white;
 	border-radius: 0 8px 8px 0;
@@ -156,7 +157,10 @@ nav a
 	font-size: 0.80em;
 }
 
-
+.search-button
+{
+	display: none;
+}
 
 
 
