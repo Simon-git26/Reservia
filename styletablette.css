@@ -76,6 +76,7 @@
     margin-top: 10px;
     padding-top: 15px;
     text-align: center;
+    font-size: 1.2em;
 }
 
 #section2 p
@@ -104,11 +105,19 @@
 {
 	float: none;
     width: 100%;
-    height: auto;
 }
 
+#aside_conteneur h2
+{
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
 
-
+#aside_conteneur strong
+{
+    margin-right: 15px;
+}
 
 
 
@@ -118,6 +127,8 @@
 #section3 h2
 {
     margin-left: 15px;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 
