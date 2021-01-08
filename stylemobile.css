@@ -183,12 +183,12 @@
 
 .name_accommodation
 {
-    font-size: 1em;
+    font-size: 1.06em;
 }
 
 .price_accomodation 
 {
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 
@@ -212,7 +212,6 @@
     font-size: 1.3em;
     width: 100%;
 	padding-top: 40px;
-	justify-content: space-evenly;
 }
 
 
@@ -220,7 +219,7 @@
 {
     margin: auto;
     margin-bottom: 10px;
-	width: 65%;
+	width: 70%;
 	height: 145px;
 }
 
@@ -232,7 +231,8 @@
 .aside figcaption
 {
 	padding-top: 5px;
-    padding-bottom: 8px;
+	padding-bottom: 8px;
+	margin-left: 20px;
 }
 
 
