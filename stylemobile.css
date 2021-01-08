@@ -78,11 +78,11 @@
 	display: inline;
 }
 
-#regroupe
-{
-	display: flex;
-}
 
+#regroupe2
+{
+	display: inherit;
+}
 
 #bloc1
 {

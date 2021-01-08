@@ -178,6 +178,11 @@ nav a
 	display: flex;
 }
 
+#regroupe2
+{
+	display: flex;
+}
+
 #filtres p
 {
 	margin-right: 20px;
