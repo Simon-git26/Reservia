@@ -22,12 +22,24 @@
     text-align: center;
 }
 
+#section1 h1
+{
+    font-size: 1.4em;
+}
+
 #form
 {
     justify-content: center;
     margin-bottom: 25px;
     margin-top: 15px;
 }
+
+
+#filtres p
+{
+    margin-left: 15px;
+}
+
 
 #regroupe 
 {
@@ -49,6 +61,7 @@
 
 
 
+
 /* HEBERGEMENT */
 
 #section2
@@ -58,8 +71,29 @@
     width: auto;
 }
 
+#section2 h2
+{
+    margin-top: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
 
+#section2 p
+{
+    padding-bottom: 15px;
+    font-size: 1em;
+    text-align: center;
+}
 
+#hebergement1
+{
+    justify-content: space-around;
+}
+
+#hebergement2
+{
+    justify-content: space-around;
+}
 
 
 
@@ -92,4 +126,32 @@
 {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+
+
+
+/* FOOTER */
+
+#pos
+{
+    width: 100%;
+    justify-content: space-around;
+}
+
+#a_propos
+{
+	width: 25%;
+}
+
+
+#nos_hebergements
+{
+	width: 20%;
+}
+
+
+#assistance
+{
+	width: 15%;
 }
