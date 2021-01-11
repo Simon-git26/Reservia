@@ -34,12 +34,22 @@ main #form
     margin-top: 15px;
 }
 
+main #filtres
+{
+    background-color: #fff6eb;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+}
+
+main .filter
+{
+    background-color: aliceblue;
+}
 
 main #filtres p
 {
     margin-left: 15px;
 }
-
 
 main #regroupe 
 {
@@ -64,11 +74,30 @@ main #logement
 
 /* HEBERGEMENT */
 
+.photo
+{
+    width: 25%;
+}
+
+main #section2 img
+{
+    width: 100%;
+}
+
+main #section2 figcaption
+{
+    text-align: center;
+    padding-left: 0;
+}
+
 main #section2
 {
 	float: none;
     height: auto;
     width: auto;
+    background-color: #fff6eb;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
 }
 
 main #section2 h2
@@ -96,6 +125,16 @@ main #hebergement2
     justify-content: space-around;
 }
 
+
+main .name_accommodation
+{
+    font-size: 0.95em;
+}
+
+main .price_accomodation 
+{
+    font-size: 0.9em;
+}
 
 
 
