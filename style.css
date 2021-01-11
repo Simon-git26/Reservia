@@ -549,44 +549,35 @@ figure
 .items2
 {
 	grid-column: 2 / 2;
-  	grid-row-start: 1;
-	grid-row-end: 3;
+  	grid-row: 1 / 3;
 	height: 190px;
 }
 
 .items3
 {
-	grid-column-start: 3;
-  	grid-column-end: 3;
-  	grid-row-start: 1;
-	grid-row-end: 4;
+	grid-column: 3 / 3;
+  	grid-row: 1 / 4;
 	height: 330px;
 }
 
 .items4
 {
-	grid-column-start: 4;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-column: 4 / 4;
+	grid-row: 1 / 2;
 	height: 140px;
 }
 
 .items5
 {
-	grid-column-start: 2;
-	grid-column-end: 2;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-column: 2 / 2;
+	grid-row: 3 / 4;
 	height: 120px;
 }
 
 .items6
 {
-	grid-column-start: 4;
-	grid-column-end: 4;
-	grid-row-start: 2;
-	grid-row-end: 4;  
+	grid-column: 4 / 4;
+	grid-row: 2 / 4; 
 	height: 170px;
 }
 
