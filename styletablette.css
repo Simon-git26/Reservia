@@ -17,17 +17,17 @@
 
 /* SECTION 1 */
 
-#section1
+main #section1
 {
     text-align: center;
 }
 
-#section1 h1
+main #section1 h1
 {
     font-size: 1.4em;
 }
 
-#form
+main #form
 {
     justify-content: center;
     margin-bottom: 25px;
@@ -35,26 +35,26 @@
 }
 
 
-#filtres p
+main #filtres p
 {
     margin-left: 15px;
 }
 
 
-#regroupe 
+main #regroupe 
 {
     width: 50%;
     justify-content: space-around;
 }
 
 
-#regroupe2 
+main #regroupe2 
 {
     width: 50%;
     justify-content: space-around;
 }
 
-#logement
+main #logement
 {
     justify-content: center;
 }
@@ -64,14 +64,14 @@
 
 /* HEBERGEMENT */
 
-#section2
+main #section2
 {
 	float: none;
     height: auto;
     width: auto;
 }
 
-#section2 h2
+main #section2 h2
 {
     margin-top: 10px;
     padding-top: 15px;
@@ -79,19 +79,19 @@
     font-size: 1.2em;
 }
 
-#section2 p
+main #section2 p
 {
     padding-bottom: 15px;
     font-size: 1em;
     text-align: center;
 }
 
-#hebergement1
+main #hebergement1
 {
     justify-content: space-around;
 }
 
-#hebergement2
+main #hebergement2
 {
     justify-content: space-around;
 }
@@ -101,20 +101,20 @@
 
 /* ASIDE */
 
-#aside_conteneur
+main #aside_conteneur
 {
 	float: none;
     width: 100%;
 }
 
-#aside_conteneur h2
+main #aside_conteneur h2
 {
     justify-content: center;
     padding-top: 15px;
     font-size: 1.2em;
 }
 
-#aside_conteneur strong
+main #aside_conteneur strong
 {
     margin-right: 15px;
 }
@@ -124,7 +124,7 @@
 
 /* GRID */
 
-#section3 h2
+main #section3 h2
 {
     margin-left: 15px;
     font-size: 1.2em;
@@ -144,25 +144,25 @@
 
 /* FOOTER */
 
-#pos
+footer #pos
 {
     width: 100%;
     justify-content: space-around;
 }
 
-#a_propos
+footer #a_propos
 {
 	width: 25%;
 }
 
 
-#nos_hebergements
+footer #nos_hebergements
 {
 	width: 20%;
 }
 
 
-#assistance
+footer #assistance
 {
 	width: 15%;
 }
