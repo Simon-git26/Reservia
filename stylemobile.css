@@ -22,6 +22,7 @@
 header
 {
 	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 header #logo
@@ -29,6 +30,7 @@ header #logo
 	order: 0;
 	flex-basis: 50%;
 	flex-grow: 0;
+	padding-left: 20px;
 }
 
 header nav
@@ -36,16 +38,42 @@ header nav
 	order: 2;
 	flex-basis: 100%;
 	flex-grow: 1;
+	text-align: center;
+	font-size: 1em;
 }
+
+header nav a
+{
+	margin-left: 0;
+	flex-basis: 50%;
+}
+
+
 
 header .button
 {
 	order: 1;
 	flex-basis: 50%;
 	margin-left: 0;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	font-size: 0.95em;
+}
+
+header nav a:hover, 
+header nav a.active
+{
+	border-top: 2px transparent solid;
+	color: #0065FC;
+	border-bottom: 3px  #0065FC solid;
 }
 
 
+header nav a.active2
+{
+	border-bottom: 3px solid #F2F2F2;
+}
 
 
 
@@ -54,20 +82,51 @@ header .button
 #section1
 {
 	text-align: inherit;
+	margin-left: 20px;
 }
 
 #section1 h1
 {
-	font-size: 1.2em;
+	font-size: 1.25em;
+	width: 85%;
 }
 
+#section1 h1 + p 
+{
+    margin-top: 10px;
+    font-size: 0.85em;
+}
 
 /* Bouton formulaire */
 
 #form
 {
 	justify-content: inherit;
+	margin-top: 25px;
 }
+
+#form label
+{
+	width: 40px;
+	height: 40px;
+}
+
+.fa-map-marker-alt
+{
+	padding-top: 6px;
+}
+
+#form input
+{
+	height: 40px;
+}
+
+.search
+{
+	width: 185px;
+	font-size: 1em;
+}
+
 
 #recherche_bouton
 {
@@ -82,13 +141,13 @@ header .button
 	background-color: #0065FC;
 	color: white;
 	border-radius: 12px;
-	width: 35px;
+	width: 40px;
 }
 
 .fa-search
 {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 12px;
+    padding-top: 12px;
 }
 
 
@@ -99,6 +158,18 @@ header .button
 #filtres
 {
 	display: inline;
+}
+
+#filtres p
+{
+	margin-left: 0;
+	font-size: 1em;
+	margin-top: 15px;
+}
+
+.filter_text
+{
+	font-size: 0.9em;
 }
 
 #regroupe {
@@ -126,19 +197,21 @@ header .button
 
 #bloc3
 {
-	width: 165px;
+	width: 46%;
 	margin-bottom: 12px;
 }
 
 #bloc4
 {
-	width: 205px;
+	width: 60%;
 	margin-bottom: 12px;
 }
 
 #logement p
 {
 	font-size: 1em;
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
 
 
@@ -157,7 +230,7 @@ header .button
 	float: none;
 	height: auto;
 	background-color: transparent;
-	width: max-content;
+	width: 100%;
     margin: auto;
 }
 
@@ -196,7 +269,7 @@ header .button
 
 .photo
 {
-	width: 435px;
+	width: 100%;
 }
 
 .photo figure
@@ -234,7 +307,7 @@ header .button
 #aside_conteneur
 {
 	float: none;
-	width: max-content;
+	width: 100%;
 	border-radius: 0;
 	height: 580px;
 }
