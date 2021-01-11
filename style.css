@@ -25,8 +25,10 @@ body a
 	color: black;
 }
 
-
-
+.bold
+{
+	font-weight: bold;
+}
 
 /* HEADER */
 
@@ -82,14 +84,14 @@ header .button
 
 /* TITRE */
 
-#section1 h1
+main #section1 h1
 {
 	margin-bottom: 0px;
 	font-size: 1.05em;
 	color: black;
 }
 
-#section1 h1 + p
+main #section1 h1 + p
 {
 	margin-top: 5px;
 	font-size: 0.75em;
@@ -102,7 +104,7 @@ header .button
 
 /* FORMULAIRE */
 
-.search
+main .search
 {
     width: 150px;
     padding-left: 15px;
@@ -111,13 +113,13 @@ header .button
     font-size: 0.9em;
 }
 
-#form
+main #form
 {
 	display: flex;
 }
 
 
-#form label
+main #form label
 {
 	background-color: #F2F2F2;
     border-radius: 35% 0% 0% 35%;
@@ -128,20 +130,20 @@ header .button
 }
 
 
-.fa-map-marker-alt
+main .fa-map-marker-alt
 {
 	font-size: 0.85em;
 }
 
 
-#form input
+main #form input
 {
 	height: 35px;
 	border: 0.5px solid #F2F2F2;
 }
 
 
-#recherche_bouton
+main #recherche_bouton
 {
 	cursor: pointer;
 	background-color: #0065FC;
@@ -153,7 +155,7 @@ header .button
 	font-size: 0.80em;
 }
 
-.search-button
+main .search-button
 {
 	display: none;
 }
@@ -162,24 +164,24 @@ header .button
 
 /* FILTRES CONTENEUR */
 
-#filtres
+main #filtres
 {
 	display: flex;
 	align-items: baseline;
 	margin-top: 25px;
 }
 
-#regroupe
+main #regroupe
 {
 	display: flex;
 }
 
-#regroupe2
+main #regroupe2
 {
 	display: flex;
 }
 
-#filtres p
+main #filtres p
 {
 	margin-right: 20px;
 	margin-bottom: 11px;
@@ -193,7 +195,7 @@ header .button
 
 /* FILTRES */
 
-.filter
+main .filter
 {
 	display: flex;
 	align-items: center;
@@ -205,7 +207,7 @@ header .button
 	margin-right: 25px;
 }
 
-.filter_text
+main .filter_text
 {
 	padding-right: 10px;
 	padding-left: 35px;
@@ -213,7 +215,7 @@ header .button
 	font-size: 0.85em;
 }
 
-.filter i
+main .filter i
 {
 	display: flex;
 	justify-content: center;
@@ -229,19 +231,19 @@ header .button
     width: 36px;
 }
 
-.filter_text:hover
+main .filter_text:hover
 {
 	color: #0065FC;
 	margin-left: 15px;
 }
 
-.filter:hover
+main .filter:hover
 {
 	background-color: #cfcfcf;
 }
 
 
-figure
+main figure
 {
 	display: block;
     margin-block-start: 1em;
@@ -255,13 +257,13 @@ figure
 
 /* LOGEMENT */
 
-#logement
+main #logement
 {
 	display: flex;
 	align-items: baseline;
 }
 
-#logement p
+main #logement p
 {
 	margin-left: 8px;
 	font-size: 0.8em;
@@ -269,7 +271,7 @@ figure
 	margin-bottom: 25px;
 }
 
-#logement i
+main #logement i
 {
 	color: #0065FC;
 	border: 1px solid #F2F2F2; 
@@ -288,19 +290,19 @@ figure
 /* SECTION 2 */
 
 
-.fa-star
+main .fa-star
 {
 	font-size: 0.70em;
 	color: #0065FC;
 }
 
-.grey
+main .grey
 {
 	color: #F2F2F2;
 }
 
 
-#section2
+main #section2
 {
 	background-color: #F2F2F2;
 	width: 63%;
@@ -309,7 +311,7 @@ figure
 	float: left;
 }
 
-#section2 h2
+main #section2 h2
 {
 	color: black;
 	margin-left: 25px;
@@ -320,7 +322,7 @@ figure
 }
 
 
-#section2 p
+main #section2 p
 {
 	margin-left: 25px;
 	margin-top: 25px;
@@ -329,20 +331,20 @@ figure
 }
 
 
-#section2 figcaption
+main #section2 figcaption
 {
 	padding-left: 10px;
 }
 
 
-.name_accommodation
+main .name_accommodation
 {
 	margin-top: 5px;
 	font-weight: bold;
 	font-size: 0.80em;
 }
 
-.price_accomodation
+main .price_accomodation
 {
 	font-size: 0.70em;
     font-weight: normal;
@@ -350,29 +352,29 @@ figure
 	color: black;
 }
 
-#hebergement1
+main #hebergement1
 {
 	display: flex;
 }
 
-#hebergement1 i
+main #hebergement1 i
 {
 	margin-top: 6px;
 }
 
 
-#hebergement2
+main #hebergement2
 {
 	display: flex;
 }
 
 
-#hebergement2 i
+main #hebergement2 i
 {
 	margin-top: 6px;
 }
 
-.photo figure
+main .photo figure
 {
 	background-color: white;
 	border: 3.5px solid white;
@@ -384,7 +386,7 @@ figure
 	margin-bottom: 0;
 }
 
-.photo img
+main .photo img
 {
 	border-radius: 10px 10px 0px 0px;
 }
@@ -395,7 +397,7 @@ figure
 
 /* ASIDE */
 
-#aside_conteneur
+main #aside_conteneur
 {
 	background-color: #F2F2F2;
 	width: 32%;
@@ -404,7 +406,7 @@ figure
 	float: right;
 }
 
-#aside_conteneur h2
+main #aside_conteneur h2
 {
 	color: black;
 	font-size: 1em;
@@ -415,7 +417,7 @@ figure
 	margin-top: 25px;
 }
 
-.aside figure
+main .aside figure
 {
 	background-color: white;
 	border: 4.5px solid white;
@@ -426,14 +428,14 @@ figure
     margin-right: 30px;
 }
 
-.aside img
+main .aside img
 {
 	border-radius: 10px 0px 0px 10px;
 	width: 100px;
 }
 
 
-.aside figcaption
+main .aside figcaption
 {
 	margin-left: 15px;
 	display: flex;
@@ -441,7 +443,7 @@ figure
     justify-content: space-between;
 }
 
-.flex
+main .flex
 {
 	display: flex;
 	height: 105px;
@@ -453,13 +455,13 @@ figure
 
 /* SECTION 3 */
 
-#section3
+main #section3
 {
 	clear: both;
 }
 
 
-#section3 h2
+main #section3 h2
 {
  	padding-top: 40px;
  	margin-bottom: 0;
@@ -468,14 +470,14 @@ figure
 }
 
 
-#conteneur
+main #conteneur
 {
 	display: flex;
 	justify-content: space-between;
 }
 
 
-#section3 figcaption
+main #section3 figcaption
 {
 	padding-top: 6px;
 	padding-bottom: 10px;
@@ -483,7 +485,7 @@ figure
 }
 
 
-.activite figure
+main .activite figure
 {
 	background-color: #f0f0f0;
     border-radius: 18px;
@@ -491,7 +493,7 @@ figure
     margin-left: 25px;
 }
 
-.activite img
+main .activite img
 {
 	border-radius: 10px 10px 0px 0px;
 }
@@ -586,7 +588,7 @@ figure
 
 /* FOOTER */
 
-#pos
+footer #pos
 {
 	display: flex;
 	width: 52.5%;
@@ -594,7 +596,7 @@ figure
 }
 
 
-#footer
+footer #footer
 {
 	display: flex;
 	background-color: #F2F2F2;
@@ -605,7 +607,7 @@ figure
 }
 
 
-#footer h3
+footer #footer h3
 {
 	font-weight: bold;
 	font-size: 0.9em;
@@ -613,14 +615,14 @@ figure
 }
 
 
-#footer a
+footer #footer a
 {
 	font-size: 0.9em;
 	margin-bottom: 8px;
 }
 
 
-#a_propos
+footer #a_propos
 {
 	display: flex;
 	flex-direction: column;
@@ -628,7 +630,7 @@ figure
 }
 
 
-#nos_hebergements
+footer #nos_hebergements
 {
 	display: flex;
 	flex-direction: column;
@@ -636,7 +638,7 @@ figure
 }
 
 
-#assistance
+footer #assistance
 {
 	display: flex;
 	flex-direction: column;

@@ -79,19 +79,19 @@ header nav a.active2
 
 /* SECTION1 */
 
-#section1
+main #section1
 {
 	text-align: inherit;
 	margin-left: 20px;
 }
 
-#section1 h1
+main #section1 h1
 {
 	font-size: 1.25em;
 	width: 85%;
 }
 
-#section1 h1 + p 
+main #section1 h1 + p 
 {
     margin-top: 10px;
     font-size: 0.85em;
@@ -99,42 +99,43 @@ header nav a.active2
 
 /* Bouton formulaire */
 
-#form
+main #form
 {
 	justify-content: inherit;
 	margin-top: 25px;
 }
 
-#form label
+main #form label
 {
 	width: 40px;
 	height: 40px;
 }
 
-.fa-map-marker-alt
+main .fa-map-marker-alt
 {
 	padding-top: 6px;
 }
 
-#form input
+main #form input
 {
 	height: 40px;
+	position: relative;
 }
 
-.search
+main .search
 {
 	width: 185px;
 	font-size: 1em;
 }
 
 
-#recherche_bouton
+main #recherche_bouton
 {
 	display: none;
 }
 
 
-.search-button
+main .search-button
 {
 	display: flex;
 	cursor: pointer;
@@ -142,9 +143,12 @@ header nav a.active2
 	color: white;
 	border-radius: 12px;
 	width: 40px;
+	position: absolute;
+    right: 100px;
+    height: 40px;
 }
 
-.fa-search
+main .fa-search
 {
     padding-left: 12px;
     padding-top: 12px;
@@ -155,59 +159,60 @@ header nav a.active2
 /* SECTION 1 FILTRES */
 
 
-#filtres
+main #filtres
 {
 	display: inline;
 }
 
-#filtres p
+main #filtres p
 {
 	margin-left: 0;
 	font-size: 1em;
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-.filter_text
+main .filter_text
 {
 	font-size: 0.9em;
 }
 
-#regroupe {
+main #regroupe {
     width: 100%;
     justify-content: inherit;
 }
 
-#regroupe2
+main #regroupe2
 {
 	
 	justify-content: inherit;
 	display: inline;
 }
 
-#bloc1
+main #bloc1
 {
 	margin-bottom: 12px;
 }
 
-#bloc2
+main #bloc2
 {
 	margin-bottom: 12px;
 }
 
 
-#bloc3
+main #bloc3
 {
 	width: 46%;
 	margin-bottom: 12px;
 }
 
-#bloc4
+main #bloc4
 {
 	width: 60%;
 	margin-bottom: 12px;
 }
 
-#logement p
+main #logement p
 {
 	font-size: 1em;
 	margin-top: 15px;
@@ -219,13 +224,13 @@ header nav a.active2
 
 /* SECTION 2 */
 
-#responsiv
+main #responsiv
 {
 	display: flex;
 	flex-direction: column-reverse;
 }
 
-#section2
+main #section2
 {
 	float: none;
 	height: auto;
@@ -234,23 +239,23 @@ header nav a.active2
     margin: auto;
 }
 
-#section2 h2 
+main #section2 h2 
 {
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 25px;
-    font-size: 1.5em;
+    font-size: 1.4em;
 	margin-bottom: 20px;
 	text-align: inherit;
 }
 
-#section2 img 
+main #section2 img 
 {
     width: 100%;
 	height: 115px;
 }
 
 
-#section2 figure
+main #section2 figure
 {
 	background-color: white;
 	width: 85%;
@@ -259,42 +264,42 @@ header nav a.active2
 	margin-bottom: 15px;
 }
 
-#section2 p 
+main #section2 p 
 {
-    margin-left: 10%;
-    margin-top: 30px;
+    margin-left: 8%;
+    margin-top: 20px;
 	font-size: 1.2em;
 	text-align: inherit;
 }
 
-.photo
+main .photo
 {
 	width: 100%;
 }
 
-.photo figure
+main .photo figure
 {
 	margin-right: 0px;
     margin-left: 0px;
 }
 
-#hebergement1
+main #hebergement1
 {
 	flex-direction: column;
 }
 
-#hebergement2
+main #hebergement2
 {
 	flex-direction: column;
 }
 
 
-.name_accommodation
+main .name_accommodation
 {
     font-size: 1.06em;
 }
 
-.price_accomodation 
+main .price_accomodation 
 {
     font-size: 0.95em;
 }
@@ -304,7 +309,7 @@ header nav a.active2
 
 /* ASIDE */
 
-#aside_conteneur
+main #aside_conteneur
 {
 	float: none;
 	width: 100%;
@@ -313,7 +318,7 @@ header nav a.active2
 }
 
 
-#aside_conteneur h2
+main #aside_conteneur h2
 {
     margin-bottom: 25px;
     margin-top: 0;
@@ -325,7 +330,7 @@ header nav a.active2
 }
 
 
-.aside figure 
+main .aside figure 
 {
     margin: auto;
     margin-bottom: 10px;
@@ -333,12 +338,12 @@ header nav a.active2
 	height: 145px;
 }
 
-.aside img
+main .aside img
 {
 	width: 125px;
 }
 
-.aside figcaption
+main .aside figcaption
 {
 	padding-top: 5px;
 	padding-bottom: 8px;
@@ -349,22 +354,23 @@ header nav a.active2
 
 /* SECTION 3 */
 
-#section3
+main #section3
 {
 	margin-bottom: 50px;
 }
 
-#section3 h2 
+main #section3 h2 
 {
-    margin-left: 65px;
-    font-size: 1.3em;
-    padding-top: 50px;
+    font-size: 1.4em;
+	padding-top: 40px;
+	margin-left: 8%;
+    text-align: inherit;
 }
 
 .bloc_grid
 {
 	padding-top: 30px;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	margin-bottom: 40px;
 	grid-gap: 23px;
@@ -374,7 +380,7 @@ header nav a.active2
 {
 	height: 55px;
 	padding-top: 20px;
-	font-size: 0.95em;
+	font-size: 1em;
 }
 
 
@@ -383,7 +389,7 @@ header nav a.active2
 	grid-column-start: 1;
 	grid-column-end: span 12;
 	height: 190px;
-	width: 80%;
+	width: 85%;
 	margin: auto;
 }
 
@@ -432,48 +438,50 @@ header nav a.active2
 
 /* FOOTER */
 
-#footer 
+footer #footer 
 {
-	height: 485px;
 	padding-top: 0px;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	height: auto;
 }
 
 
-#footer h3 
+footer #footer h3 
 {
 	font-size: 1.1em;
 	margin-bottom: 20px;
 }
 
-#footer a
+footer #footer a
 {
     font-size: 1em;
     margin-bottom: 12px;
 }
 
-#pos
+footer #pos
 {
 	display: inline;
 	margin-left: 25px;
-    margin-top: 45px;
+	margin-top: 45px;
+	width: 100%;
 }
 
-#a_propos
+footer #a_propos
 {
 	margin-top: 0px;
 	width: 90%;
 }
 
-#nos_hebergements
+footer #nos_hebergements
 {
 	margin-top: 28px;
 	width: 65%;
 }
 
-#assistance
+footer #assistance
 {
 	margin-top: 28px;
 	width: 45%;
+	padding-bottom: 40px;
 }
