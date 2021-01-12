@@ -107,6 +107,7 @@ main #section2
 main #section2 h2
 {
     margin-top: 10px;
+    margin-left: 0;
     padding-top: 15px;
     text-align: center;
     font-size: 1.2em;
@@ -149,12 +150,15 @@ main #aside_conteneur
 {
 	float: none;
     width: 100%;
+    background-color: #fff6eb;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    margin-top: 30px;
 }
 
 main #aside_conteneur h2
 {
     justify-content: center;
-    padding-top: 15px;
     font-size: 1.2em;
 }
 
@@ -187,6 +191,11 @@ main #section3 h2
 
 
 /* FOOTER */
+
+footer #footer 
+{
+    margin-bottom: 0;
+}
 
 footer #pos
 {
