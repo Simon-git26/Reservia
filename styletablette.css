@@ -107,6 +107,7 @@ main #regroupe
 main .photo figure
 {
     margin-left: 0;
+    background-color: aliceblue;
 }
 
 main #regroupe2 
@@ -227,13 +228,27 @@ main #aside_conteneur strong
     margin-right: 15px;
 }
 
-
+main .aside figure
+{
+    background-color: aliceblue;
+}
 
 
 /* GRID */
 
+main #section3
+{
+    background-color: antiquewhite;
+    margin-top: 30px;
+    height: 425px;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+
 main #section3 h2
 {
+    padding-top: 20px;
     font-size: 1.2em;
     text-align: center;
 }
@@ -246,6 +261,10 @@ main #section3 h2
     margin-right: 15px;
 }
 
+.title_grid
+{
+    background-color: aliceblue;
+}
 
 
 

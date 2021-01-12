@@ -351,6 +351,7 @@ main .aside figure
     margin-bottom: 10px;
 	width: 85%;
 	height: 145px;
+	background-color: white;
 }
 
 main .aside img
@@ -372,6 +373,11 @@ main .aside figcaption
 main #section3
 {
 	margin-bottom: 50px;
+	background-color: transparent;
+	margin-top: 0;
+	height: auto;
+	border: none;
+	border-radius: inherit;
 }
 
 main #section3 h2 
@@ -396,6 +402,7 @@ main #section3 h2
 	height: 55px;
 	padding-top: 20px;
 	font-size: 1em;
+	background-color: white;
 }
 
 
