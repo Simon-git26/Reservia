@@ -329,6 +329,9 @@ main #aside_conteneur
 	width: 100%;
 	border-radius: 0;
 	height: 580px;
+	margin-left: 0;
+	border: none;
+    background-color: #F2F2F2;
 }
 
 

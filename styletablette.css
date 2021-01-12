@@ -78,6 +78,17 @@ main #logement
 
 /* HEBERGEMENT */
 
+.grow
+{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover
+{
+    transform: scale(0.8);
+}
+
+
 .photo
 {
     width: 25%;
@@ -154,6 +165,8 @@ main #aside_conteneur
     border-radius: 20px;
     border: 1px solid #e0e0e0;
     margin-top: 30px;
+    margin-left: 22.5%;
+    width: 55%;
 }
 
 main #aside_conteneur h2
@@ -174,7 +187,6 @@ main #aside_conteneur strong
 
 main #section3 h2
 {
-    margin-left: 15px;
     font-size: 1.2em;
     text-align: center;
 }
