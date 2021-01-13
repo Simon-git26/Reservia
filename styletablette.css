@@ -22,7 +22,7 @@ header
     text-align: center;
 }
 
-header #logo
+header .logo
 {
     flex-basis: 100%;
 }
@@ -30,7 +30,7 @@ header #logo
 
 header nav 
 {
-    flex-basis: 66%;
+    flex-basis: 64%;
     justify-content: space-around;
 }
 
@@ -49,6 +49,10 @@ header nav a.active2
     width: 50%;
 }
 
+header nav a:hover
+{
+    border-bottom: 3px #0065FC solid;
+}
 
 header .button 
 {
@@ -58,18 +62,22 @@ header .button
     padding-bottom: 20px;
 }
 
+header .button:hover
+{
+    border-bottom: 3px #0065FC solid;
+}
 
 
 
 
 /* SECTION 1 */
 
-main #section1
+main .section1
 {
     text-align: center;
 }
 
-main #section1 h1
+main .section1 h1
 {
     font-size: 1.4em;
 }
@@ -81,7 +89,7 @@ main #form
     margin-top: 15px;
 }
 
-main #filtres
+main .filtres
 {
     background-color: #fff6eb;
     border: 1px solid #e0e0e0;
@@ -93,12 +101,12 @@ main .filter
     background-color: aliceblue;
 }
 
-main #filtres p
+main .filtres p
 {
     margin-left: 15px;
 }
 
-main #regroupe 
+main .regroupe 
 {
     width: 50%;
     justify-content: space-around;
@@ -110,13 +118,13 @@ main .photo figure
     background-color: aliceblue;
 }
 
-main #regroupe2 
+main .regroupe2 
 {
     width: 50%;
     justify-content: space-around;
 }
 
-main #logement
+main .logement
 {
     justify-content: center;
 }
@@ -180,12 +188,12 @@ main #section2 p
     margin-left: 0;
 }
 
-main #hebergement1
+main .hebergement1
 {
     justify-content: space-around;
 }
 
-main #hebergement2
+main .hebergement2
 {
     justify-content: space-around;
 }
@@ -205,7 +213,7 @@ main .price_accomodation
 
 /* ASIDE */
 
-main #aside_conteneur
+main .aside_conteneur
 {
 	float: none;
     width: 100%;
@@ -217,13 +225,13 @@ main #aside_conteneur
     width: 55%;
 }
 
-main #aside_conteneur h2
+main .aside_conteneur h2
 {
     justify-content: center;
     font-size: 1.2em;
 }
 
-main #aside_conteneur strong
+main .aside_conteneur strong
 {
     margin-right: 15px;
 }
@@ -270,30 +278,30 @@ main #section3 h2
 
 /* FOOTER */
 
-footer #footer 
+footer .footer 
 {
     margin-bottom: 0;
 }
 
-footer #pos
+footer .pos
 {
     width: 100%;
     justify-content: space-around;
 }
 
-footer #a_propos
+footer .a_propos
 {
 	width: 25%;
 }
 
 
-footer #nos_hebergements
+footer .nos_hebergements
 {
 	width: 20%;
 }
 
 
-footer #assistance
+footer .assistance
 {
 	width: 15%;
 }

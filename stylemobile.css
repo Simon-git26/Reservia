@@ -22,7 +22,7 @@ header
 	text-align: inherit;
 }
 
-header #logo
+header .logo
 {
 	order: 0;
 	flex-basis: 50%;
@@ -77,19 +77,19 @@ header nav a.active2
 
 /* SECTION1 */
 
-main #section1
+main .section1
 {
 	text-align: inherit;
 	margin-left: 20px;
 }
 
-main #section1 h1
+main .section1 h1
 {
 	font-size: 1.25em;
 	width: 85%;
 }
 
-main #section1 h1 + p 
+main .section1 h1 + p 
 {
     margin-top: 10px;
     font-size: 0.85em;
@@ -157,7 +157,7 @@ main .fa-search
 /* SECTION 1 FILTRES */
 
 
-main #filtres
+main .filtres
 {
 	display: inline;
 	border: transparent;
@@ -168,7 +168,7 @@ main .filter
     background-color: inherit;
 }
 
-main #filtres p
+main .filtres p
 {
 	margin-left: 0;
 	font-size: 1em;
@@ -181,42 +181,42 @@ main .filter_text
 	font-size: 0.9em;
 }
 
-main #regroupe {
+main .regroupe {
     width: 100%;
     justify-content: inherit;
 }
 
-main #regroupe2
+main .regroupe2
 {
 	
 	justify-content: inherit;
 	display: inline;
 }
 
-main #bloc1
+main .bloc1
 {
 	margin-bottom: 12px;
 }
 
-main #bloc2
+main .bloc2
 {
 	margin-bottom: 12px;
 }
 
 
-main #bloc3
+main .bloc3
 {
 	width: 46%;
 	margin-bottom: 12px;
 }
 
-main #bloc4
+main .bloc4
 {
 	width: 60%;
 	margin-bottom: 12px;
 }
 
-main #logement p
+main .logement p
 {
 	font-size: 1em;
 	margin-top: 15px;
@@ -228,7 +228,7 @@ main #logement p
 
 /* SECTION 2 */
 
-main #responsiv
+main .responsiv
 {
 	display: flex;
 	flex-direction: column-reverse;
@@ -295,12 +295,12 @@ main .photo figure
     margin-left: 0px;
 }
 
-main #hebergement1
+main .hebergement1
 {
 	flex-direction: column;
 }
 
-main #hebergement2
+main .hebergement2
 {
 	flex-direction: column;
 }
@@ -321,7 +321,7 @@ main .price_accomodation
 
 /* ASIDE */
 
-main #aside_conteneur
+main .aside_conteneur
 {
 	float: none;
 	width: 100%;
@@ -333,7 +333,7 @@ main #aside_conteneur
 }
 
 
-main #aside_conteneur h2
+main .aside_conteneur h2
 {
     margin-bottom: 25px;
     margin-top: 0;
@@ -460,7 +460,7 @@ main #section3 h2
 
 /* FOOTER */
 
-footer #footer 
+footer .footer 
 {
 	padding-top: 0px;
 	padding-bottom: 0;
@@ -469,19 +469,19 @@ footer #footer
 }
 
 
-footer #footer h3 
+footer .footer h3 
 {
 	font-size: 1.1em;
 	margin-bottom: 20px;
 }
 
-footer #footer a
+footer .footer a
 {
     font-size: 1em;
     margin-bottom: 12px;
 }
 
-footer #pos
+footer .pos
 {
 	display: inline;
 	margin-left: 25px;
@@ -489,19 +489,19 @@ footer #pos
 	width: 100%;
 }
 
-footer #a_propos
+footer .a_propos
 {
 	margin-top: 0px;
 	width: 90%;
 }
 
-footer #nos_hebergements
+footer .nos_hebergements
 {
 	margin-top: 28px;
 	width: 65%;
 }
 
-footer #assistance
+footer .assistance
 {
 	margin-top: 28px;
 	width: 45%;
