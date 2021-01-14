@@ -27,13 +27,11 @@ header .logo
     flex-basis: 100%;
 }
 
-
 header nav 
 {
     flex-basis: 64%;
     justify-content: space-around;
 }
-
 
 header nav a:hover, header nav a.active
 {
@@ -70,6 +68,7 @@ header .button:hover
 
 
 
+
 /* SECTION 1 */
 
 main .section1
@@ -89,6 +88,12 @@ main #form
     margin-top: 15px;
 }
 
+
+
+
+
+/* FILTRE */
+
 main .filtres
 {
     background-color: #fff6eb;
@@ -96,26 +101,20 @@ main .filtres
     border-radius: 20px;
 }
 
-main .filter
-{
-    background-color: aliceblue;
-}
-
 main .filtres p
 {
     margin-left: 15px;
+}
+
+main .filter
+{
+    background-color: aliceblue;
 }
 
 main .regroupe 
 {
     width: 50%;
     justify-content: space-around;
-}
-
-main .photo figure
-{
-    margin-left: 0;
-    background-color: aliceblue;
 }
 
 main .regroupe2 
@@ -132,34 +131,9 @@ main .logement
 
 
 
+
+
 /* HEBERGEMENT */
-
-.grow
-{
-    transition: all .2s ease-in-out;
-}
-
-.grow:hover
-{
-    transform: scale(0.8);
-}
-
-
-.photo
-{
-    width: 25%;
-}
-
-main #section2 img
-{
-    width: 100%;
-}
-
-main #section2 figcaption
-{
-    text-align: center;
-    padding-left: 0;
-}
 
 main #section2
 {
@@ -180,24 +154,36 @@ main #section2 h2
     font-size: 1.2em;
 }
 
-main #section2 p
-{
-    padding-bottom: 15px;
-    font-size: 1em;
-    text-align: center;
-    margin-left: 0;
-}
-
 main .hebergement1
 {
     justify-content: space-around;
 }
 
-main .hebergement2
+.photo
 {
-    justify-content: space-around;
+    width: 25%;
 }
 
+.grow
+{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover
+{
+    transform: scale(0.8);
+}
+
+main #section2 img
+{
+    width: 100%;
+}
+
+main #section2 figcaption
+{
+    text-align: center;
+    padding-left: 0;
+}
 
 main .name_accommodation
 {
@@ -208,6 +194,23 @@ main .price_accomodation
 {
     font-size: 0.9em;
 }
+
+
+main .hebergement2
+{
+    justify-content: space-around;
+}
+
+main #section2 p
+{
+    padding-bottom: 15px;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 0;
+}
+
+
+
 
 
 
@@ -242,7 +245,10 @@ main .aside figure
 }
 
 
-/* GRID */
+
+
+
+/* SECTION 3 */
 
 main #section3
 {
@@ -263,6 +269,10 @@ main #section3 h2
 
 
 
+
+
+/* CSS GRID */
+
 .bloc_grid
 {
     margin-left: 15px;
@@ -273,6 +283,8 @@ main #section3 h2
 {
     background-color: aliceblue;
 }
+
+
 
 
 

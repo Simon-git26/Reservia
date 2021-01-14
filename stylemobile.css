@@ -15,7 +15,8 @@
 
 
 
-/* Header nav */
+/* HEADER */
+
 header
 {
 	margin-top: 20px;
@@ -46,7 +47,6 @@ header nav a
 	flex-basis: 50%;
 }
 
-
 header .button
 {
 	order: 1;
@@ -67,11 +67,11 @@ header nav a.active
 	width: inherit;
 }
 
-
 header nav a.active2
 {
 	width: inherit;
 }
+
 
 
 
@@ -94,6 +94,9 @@ main .section1 h1 + p
     margin-top: 10px;
     font-size: 0.85em;
 }
+
+
+
 
 /* Bouton formulaire */
 
@@ -126,12 +129,10 @@ main .search
 	font-size: 1em;
 }
 
-
 main #recherche_bouton
 {
 	display: none;
 }
-
 
 main .search-button
 {
@@ -154,18 +155,14 @@ main .fa-search
 
 
 
-/* SECTION 1 FILTRES */
 
+
+/* SECTION 1 FILTRES */
 
 main .filtres
 {
 	display: inline;
 	border: transparent;
-}
-
-main .filter 
-{
-    background-color: inherit;
 }
 
 main .filtres p
@@ -176,14 +173,24 @@ main .filtres p
 	margin-bottom: 15px;
 }
 
-main .filter_text
-{
-	font-size: 0.9em;
-}
-
 main .regroupe {
     width: 100%;
     justify-content: inherit;
+}
+
+main .bloc1
+{
+	margin-bottom: 12px;
+}
+
+main .filter 
+{
+    background-color: inherit;
+}
+
+main .filter_text
+{
+	font-size: 0.9em;
 }
 
 main .regroupe2
@@ -193,16 +200,10 @@ main .regroupe2
 	display: inline;
 }
 
-main .bloc1
-{
-	margin-bottom: 12px;
-}
-
 main .bloc2
 {
 	margin-bottom: 12px;
 }
-
 
 main .bloc3
 {
@@ -222,6 +223,7 @@ main .logement p
 	margin-top: 15px;
 	margin-bottom: 30px;
 }
+
 
 
 
@@ -254,6 +256,25 @@ main #section2 h2
 	text-align: inherit;
 }
 
+main .hebergement1
+{
+	flex-direction: column;
+}
+
+main .photo
+{
+	width: 100%;
+}
+
+main #section2 figure
+{
+	background-color: white;
+	width: 85%;
+	height: 195px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
 main #section2 img 
 {
     width: 100%;
@@ -266,14 +287,19 @@ main #section2 figcaption
     padding-left: 10px;
 }
 
-
-main #section2 figure
+main .name_accommodation
 {
-	background-color: white;
-	width: 85%;
-	height: 195px;
-	margin: auto;
-	margin-bottom: 15px;
+    font-size: 1.06em;
+}
+
+main .price_accomodation 
+{
+    font-size: 0.95em;
+}
+
+main .hebergement2
+{
+	flex-direction: column;
 }
 
 main #section2 p 
@@ -284,37 +310,6 @@ main #section2 p
 	text-align: inherit;
 }
 
-main .photo
-{
-	width: 100%;
-}
-
-main .photo figure
-{
-	margin-right: 0px;
-    margin-left: 0px;
-}
-
-main .hebergement1
-{
-	flex-direction: column;
-}
-
-main .hebergement2
-{
-	flex-direction: column;
-}
-
-
-main .name_accommodation
-{
-    font-size: 1.06em;
-}
-
-main .price_accomodation 
-{
-    font-size: 0.95em;
-}
 
 
 
@@ -332,7 +327,6 @@ main .aside_conteneur
     background-color: #F2F2F2;
 }
 
-
 main .aside_conteneur h2
 {
     margin-bottom: 25px;
@@ -343,7 +337,6 @@ main .aside_conteneur h2
 	justify-content: space-between;
     margin-left: 7%;
 }
-
 
 main .aside figure 
 {
@@ -368,6 +361,9 @@ main .aside figcaption
 
 
 
+
+
+
 /* SECTION 3 */
 
 main #section3
@@ -388,6 +384,12 @@ main #section3 h2
     text-align: inherit;
 }
 
+
+
+
+
+/* CSS GRID */
+
 .bloc_grid
 {
 	padding-top: 30px;
@@ -405,7 +407,6 @@ main #section3 h2
 	background-color: white;
 }
 
-
 .items1, .items2, .items3, .items4, .items5, .items6
 {
 	grid-column-start: 1;
@@ -414,7 +415,6 @@ main #section3 h2
 	width: 85%;
 	margin: auto;
 }
-
 
 .items1
 {
@@ -468,17 +468,10 @@ footer .footer
 	height: auto;
 }
 
-
 footer .footer h3 
 {
 	font-size: 1.1em;
 	margin-bottom: 20px;
-}
-
-footer .footer a
-{
-    font-size: 1em;
-    margin-bottom: 12px;
 }
 
 footer .pos
@@ -487,6 +480,12 @@ footer .pos
 	margin-left: 25px;
 	margin-top: 45px;
 	width: 100%;
+}
+
+footer .footer a
+{
+    font-size: 1em;
+    margin-bottom: 12px;
 }
 
 footer .a_propos
