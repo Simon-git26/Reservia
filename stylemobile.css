@@ -236,7 +236,7 @@ main .responsiv
 	flex-direction: column-reverse;
 }
 
-main #section2
+main #hebergement
 {
 	float: none;
 	height: auto;
@@ -247,7 +247,7 @@ main #section2
     border-radius: inherit;
 }
 
-main #section2 h2 
+main #hebergement h2 
 {
     margin-left: 8%;
     margin-top: 25px;
@@ -266,7 +266,7 @@ main .photo
 	width: 100%;
 }
 
-main #section2 figure
+main #hebergement figure
 {
 	background-color: white;
 	width: 85%;
@@ -275,13 +275,13 @@ main #section2 figure
 	margin-bottom: 15px;
 }
 
-main #section2 img 
+main #hebergement img 
 {
     width: 100%;
 	height: 115px;
 }
 
-main #section2 figcaption 
+main #hebergement figcaption 
 {
     text-align: inherit;
     padding-left: 10px;
@@ -302,12 +302,12 @@ main .hebergement2
 	flex-direction: column;
 }
 
-main #section2 p 
+main #hebergement p 
 {
     margin-left: 8%;
-    margin-top: 20px;
 	font-size: 1.2em;
 	text-align: inherit;
+	font-weight: bold;
 }
 
 
@@ -366,7 +366,7 @@ main .aside figcaption
 
 /* SECTION 3 */
 
-main #section3
+main #activite
 {
 	margin-bottom: 50px;
 	background-color: transparent;
@@ -376,7 +376,7 @@ main #section3
 	border-radius: inherit;
 }
 
-main #section3 h2 
+main #activite h2 
 {
     font-size: 1.4em;
 	padding-top: 40px;

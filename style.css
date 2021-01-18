@@ -86,6 +86,7 @@ main .section1 h1
 	margin-bottom: 0px;
 	font-size: 1.05em;
 	color: black;
+	font-weight: bold;
 }
 
 main .section1 h1 + p
@@ -276,7 +277,7 @@ main .logement p
 
 /* SECTION 2 */
 
-main #section2
+main #hebergement
 {
 	background-color: #F2F2F2;
 	width: 63%;
@@ -285,7 +286,7 @@ main #section2
 	float: left;
 }
 
-main #section2 h2
+main #hebergement h2
 {
 	color: black;
 	margin-left: 25px;
@@ -322,7 +323,7 @@ main .photo img
 	border-radius: 10px 10px 0px 0px;
 }
 
-main #section2 figcaption
+main #hebergement figcaption
 {
 	padding-left: 10px;
 }
@@ -363,7 +364,7 @@ main .hebergement2 i
 	margin-top: 6px;
 }
 
-main #section2 p
+main #hebergement p
 {
 	margin-left: 25px;
 	margin-top: 25px;
@@ -435,12 +436,12 @@ main .aside figcaption
 
 /* SECTION 3 */
 
-main #section3
+main #activite
 {
 	clear: both;
 }
 
-main #section3 h2
+main #activite h2
 {
  	padding-top: 40px;
  	margin-bottom: 0;

@@ -135,7 +135,7 @@ main .logement
 
 /* HEBERGEMENT */
 
-main #section2
+main #hebergement
 {
 	float: none;
     height: auto;
@@ -145,7 +145,7 @@ main #section2
     border: 1px solid #e0e0e0;
 }
 
-main #section2 h2
+main #hebergement h2
 {
     margin-top: 10px;
     margin-left: 0;
@@ -174,12 +174,12 @@ main .hebergement1
     transform: scale(0.8);
 }
 
-main #section2 img
+main #hebergement img
 {
     width: 100%;
 }
 
-main #section2 figcaption
+main #hebergement figcaption
 {
     text-align: center;
     padding-left: 0;
@@ -201,12 +201,14 @@ main .hebergement2
     justify-content: space-around;
 }
 
-main #section2 p
+main #hebergement p
 {
     padding-bottom: 15px;
+    padding-top: 15px;
     font-size: 1em;
     text-align: center;
     margin-left: 0;
+    font-weight: bold;
 }
 
 
@@ -232,10 +234,6 @@ main .aside_conteneur h2
 {
     justify-content: center;
     font-size: 1.2em;
-}
-
-main .aside_conteneur strong
-{
     margin-right: 15px;
 }
 
@@ -250,7 +248,7 @@ main .aside figure
 
 /* SECTION 3 */
 
-main #section3
+main #activite
 {
     background-color: antiquewhite;
     margin-top: 30px;
@@ -260,7 +258,7 @@ main #section3
 }
 
 
-main #section3 h2
+main #activite h2
 {
     padding-top: 20px;
     font-size: 1.2em;
