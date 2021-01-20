@@ -57,8 +57,10 @@ header .button
 
 header .button:hover
 {
-	padding: 0;
-	border-bottom: none;
+	border-top: transparent;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-top: 0;
 }
 
 

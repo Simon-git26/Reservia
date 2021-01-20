@@ -56,7 +56,7 @@ header .button
 
 header .button:hover
 {
-    border-bottom: 3px #0065FC solid;
+	border-top: none;
 }
 
 
