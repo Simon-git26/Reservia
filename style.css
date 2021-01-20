@@ -68,14 +68,25 @@ header nav a
 
 header .button
 {
-	border: none;
+	border: transparent;
 	background-color: transparent;
 	font-size: 0.85em;
 	font-weight: bold;
 	color: #0065FC;
 	margin-left: 40px;
+	border-top: 2px transparent solid;
 }
 
+/* Ajout aprés la soutenance */
+
+header button:hover
+{
+	border-top: 2px #0065FC solid;
+	color: #0065FC;
+	padding: 20.5px 0;
+}
+
+/* Fin de l'ajout */
 
 
 

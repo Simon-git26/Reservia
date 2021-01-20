@@ -54,6 +54,18 @@ header .button
 	padding-bottom: 0;
 }
 
+/* Ajout après soutenance */
+
+header .button:hover
+{
+	border: none;
+	padding: 0;
+}
+
+/* Fin de l'ajout */
+
+
+
 header nav a:hover, 
 header nav a.active
 {
