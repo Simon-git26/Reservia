@@ -54,15 +54,13 @@ header .button
 	padding-bottom: 0;
 }
 
-/* Ajout après soutenance */
 
 header .button:hover
 {
-	border: none;
 	padding: 0;
+	border-bottom: none;
 }
 
-/* Fin de l'ajout */
 
 
 
